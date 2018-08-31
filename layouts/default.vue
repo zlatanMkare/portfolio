@@ -84,6 +84,13 @@ html {
   padding: 30px;
 }
 
+.lead {
+  color: #000;
+  font-size: 24px;
+  line-height: 40px;
+  font-weight: 300;
+}
+
 .humburger {
   cursor: pointer;
   float: right;
@@ -141,6 +148,11 @@ footer {
   list-style-type: none;
   display: inline-flex;
   float: right;
+}
+
+/** Navigation items **/
+.navigation-item a {
+  
 }
 
 .navigation-item {

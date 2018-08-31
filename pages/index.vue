@@ -39,7 +39,7 @@
             I'm Job Njoroge.
           </h1>
           <br>
-          <h2 class="subtitle">
+          <h2 class="lead">
             A front-end developer currently working at Finans247, a fintech startup company based in Copenhagen, Denmark. At the moment I work
             a lot with vue.js, Wordpress, CSS animations and Symfony PHP framework.
           </h2>

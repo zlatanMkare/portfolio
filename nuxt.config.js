@@ -11,6 +11,7 @@ module.exports = {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      // { rel: 'stylesheet', href: '/assets/personal.epic.css' },
       { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css' },
       { rel: 'stylesheet', href: 'https://unpkg.com/ionicons@4.3.0/dist/css/ionicons.min.css' }
     ]
