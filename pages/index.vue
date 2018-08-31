@@ -16,8 +16,8 @@
           <br>
           <div class="links">
             <nuxt-link
-              to="/about"
-              class="btn btn-primary">Behind the face</nuxt-link>
+              to="/Cv"
+              class="btn btn-primary">Check out my resume</nuxt-link>
           </div>
         </div>
         <div class="col-md-2">
@@ -30,12 +30,13 @@
 <script>
 import AppLogo from '~/components/AppLogo.vue'
 import Navbar from '~/components/Navbar.vue'
+import {TweenMax, Back} from 'gsap'
 
 export default {
   components: {
     AppLogo,
     Navbar
-  }
+  },
 }
 </script>
 
