@@ -13,9 +13,9 @@
 
         <div class="bigpadding"></div>
 
-        <div class="row middle-xs portfolio">
+        <div class="row portfolio">
             <div class="col-md-8">
-                <img src="https://placeimg.com/740/480/tech/grayscale">
+                <img class="img-fluid" src="http://renvoye.com/assets/images/project01_cover.webp">
             </div>
             <div class="col-md-4">
                 <span class="number">01.</span>
@@ -29,9 +29,11 @@
             </div> 
         </div>
 
-        <div class="row middle-xs portfolio">
+        <div class="smallpadding"></div>
+
+        <div class="row portfolio">
             <div class="col-md-8">
-                <img src="https://placeimg.com/740/480/tech/grayscale">
+                <img class="img-fluid" src="http://renvoye.com/assets/images/project09.webp">
             </div>
             <div class="col-md-4">
                 <span class="number">02.</span>
@@ -45,9 +47,11 @@
             </div>
         </div>
 
-        <div class="row middle-xs portfolio">
+        <div class="smallpadding"></div>
+
+        <div class="row portfolio">
             <div class="col-md-8">
-                <img src="https://placeimg.com/740/480/tech/grayscale">
+                <img class="img-fluid" src="http://renvoye.com/assets/images/project07.webp">
             </div>
             <div class="col-md-4">
                 <span class="number">03.</span>

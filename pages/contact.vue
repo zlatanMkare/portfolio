@@ -2,7 +2,7 @@
     <section id="contact">
         <div class="smallpadding"></div>
 
-        <div class="row center-md">
+        <div class="row">
             <div class="col-md-8">
                 <p class="subheading">get in touch</p>
                 <h2 class="title">
@@ -14,7 +14,7 @@
                 </p>
                 <br>
                 <div>
-                    <a class="btn-primary" href="#">
+                    <a class="btn btn-primary" href="#">
                         Halla at me <i class="icon ion-md-arrow"></i>
                     </a>
                 </div>

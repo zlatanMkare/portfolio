@@ -1,46 +1,19 @@
 <template>
   <div>
-    <div class="nav container">
-      <div class="col-md-12">
+    <Navbar></Navbar>
 
-        <div class="humburger">
-          <div class="line"></div>
-          <div class="line"></div>
-          <div class="line"></div>
+    <div class="container-fluid">
+      <div class="content">
+        <div class="container">
+          <nuxt/>
         </div>
-
-        <ul class="navigation">
-          <li class="navigation-item">
-            <nuxt-link
-            to="/">Home</nuxt-link>
-          </li>
-          <li class="navigation-item">
-            <nuxt-link
-            to="/about">About</nuxt-link>
-          </li>
-          <li class="navigation-item">
-            <nuxt-link
-            to="/portfolio">Portfolio</nuxt-link>
-          </li>
-          <li class="navigation-item">
-            <nuxt-link
-            to="/contact">Contact</nuxt-link>
-          </li>
-        </ul>
-        
-      </div>
-    </div>
-
-    <div class="content">
-      <div class="container">
-        <nuxt/>
       </div>
     </div>
 
     <footer>
       <div class="container">
-        <div class="row center-xs">
-          <div class="col-xs-4">
+        <div class="row">
+          <div class="col-md-12">
             <ul class="social">
               <li>
                 <i class="icon ion-logo-codepen"></i>
@@ -61,6 +34,16 @@
   </div>
 </template>
 
+<script>
+  import Navbar from '~/components/Navbar.vue'
+
+  export default {
+    components: {
+      Navbar
+    }
+  }
+</script>
+
 <style>
 html {
   font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
@@ -71,8 +54,14 @@ html {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
-  height: 100%;
+  position:relative; 
+  min-height: 100%;
   margin: 0;
+}
+
+html,body{
+  margin:0;
+  padding:0;
 }
 
 *, *:before, *:after {
@@ -80,79 +69,31 @@ html {
   margin: 0;
 }
 
-.container {
-  padding: 30px;
+@media (min-width: 1200px){
+  .container {
+    max-width: 1440px;
+  }
+}
+
+
+.content {
+  padding-bottom: 100px;
 }
 
 .lead {
   color: #000;
-  font-size: 24px;
+  font-size: 18px;
   line-height: 40px;
   font-weight: 300;
 }
 
-.humburger {
-  cursor: pointer;
-  float: right;
-  margin-top: -8px;
-  margin-left: 15px;
-}
-
-.humburger .line {
-  width: 30px;
-  height: 1px;
-  background-color: #333;
-  margin: 8px 0;
-}
-
-.content {
-  min-height: 90vh;
-  padding-bottom: 100px;
-}
-
 footer {
   height: 100px;
-  margin-top: -100px;
-}
-
-.button--green {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #3b8070;
-  color: #3b8070;
-  text-decoration: none;
-  padding: 10px 30px;
-}
-
-.button--green:hover {
-  color: #fff;
-  background-color: #3b8070;
-}
-
-.button--grey {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #35495e;
-  color: #35495e;
-  text-decoration: none;
-  padding: 10px 30px;
-  margin-left: 15px;
-}
-
-.button--grey:hover {
-  color: #fff;
-  background-color: #35495e;
-}
-
-.navigation {
-  list-style-type: none;
-  display: inline-flex;
-  float: right;
-}
-
-/** Navigation items **/
-.navigation-item a {
-  
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
 }
 
 .navigation-item {
@@ -206,10 +147,9 @@ footer {
 }
 
 .title {
-    font-family: 'Open Sans', sans-serif;
     display: block;
-    font-weight: 700;
-    font-size: 3rem;
+    font-weight: 500;
+    font-size: 2.3rem;
     text-transform: uppercase;
     color: #000;
     letter-spacing: 1px;
@@ -224,24 +164,5 @@ p {
     line-height: 1.5;
 }
 
-.btn-primary {
-  border: 1px solid #000;
-  padding: 15px 20px;
-  background: transparent;
-  font-size: 14px;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  text-decoration: none;
-  color: #000;
-  font-weight: 600;
-  transition: all 1.5s cubic-bezier(.23,1,.32,1)
-}
-
-.btn-primary:hover,
-.btn-primary:focus,
-.btn-primary:active {
-  background-color: #000;
-  color: #fff;
-}
 </style>
 
