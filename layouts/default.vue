@@ -10,43 +10,24 @@
       </div>
     </div>
 
-    <footer>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <ul class="social">
-              <li>
-                <i class="icon ion-logo-codepen"></i>
-              </li>
-              <li>
-                <i class="icon ion-logo-instagram"></i>
-              </li>
-              <li>
-                <i class="icon ion-logo-github"></i>
-              </li>
-            </ul>
-            <br>
-            <small>© 2018. Thou shall not steal</small>
-          </div>
-        </div>
-      </div>
-    </footer>
+    <Footer></Footer>
   </div>
 </template>
 
 <script>
   import Navbar from '~/components/Navbar.vue'
+  import Footer from "~/components/Footer.vue";
 
   export default {
     components: {
-      Navbar
+      Navbar,
+      Footer
     }
   }
 </script>
 
 <style>
 html {
-  font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-size: 16px;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
@@ -62,6 +43,7 @@ html {
 html,body{
   margin:0;
   padding:0;
+  height: 100vh;
 }
 
 *, *:before, *:after {
@@ -69,16 +51,6 @@ html,body{
   margin: 0;
 }
 
-@media (min-width: 1200px){
-  .container {
-    max-width: 1440px;
-  }
-}
-
-
-.content {
-  padding-bottom: 100px;
-}
 
 .lead {
   color: #000;
@@ -89,7 +61,6 @@ html,body{
 
 footer {
   height: 100px;
-  position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
@@ -157,7 +128,7 @@ footer {
 
 p {
     font-weight: 300;
-    font-size: 18px;
+    font-size: 15px;
     color: #333;
     word-spacing: 5px;
     padding-bottom: 15px;

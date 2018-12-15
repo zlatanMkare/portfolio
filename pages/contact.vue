@@ -10,7 +10,7 @@
                 </h2>
                 <br>
                 <p>
-                    If you'd like to talk about a project you want help with or need an advice about product design, just drop me a message at jobgathu@hotmail.com. I'm currently AVAILABLE for any design systems projects, dashboard designs or landing pages gigs.
+                    If you'd like to talk about a project you want help with or need an advice about frontend development, just drop me a message at jobgathunjoroge@yahoo.com.
                 </p>
                 <br>
                 <div>

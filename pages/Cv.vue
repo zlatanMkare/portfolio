@@ -4,150 +4,169 @@
             <section class="cv-block block-intro border-bottom">
                 <div class="container">
                 <div class="avatar">
-                    <img class="img" width="auto" src="https://media.licdn.com/dms/image/C4E03AQETatduCafFkA/profile-displayphoto-shrink_200_200/0?e=1540425600&v=beta&t=etnU-EZ9Z5ntfEAPAAKeU-LGJfebytWIuASpNnQY9Yc"> 
+                    <img ref="profile" class="img" width="auto" src="../static/profile.jpeg"> 
                 </div>
                 <br>
                 <br>
-                <p>Hello! I am <strong>John Smith</strong>. I work as interface and front end developer. I have passion for pixel perfect, minimal and easy to use interfaces.</p>
-                <a href="#" class="btn btn-outline-primary">Hire Me</a>
+                <p ref="intro">Hello! I am <strong>Job Njoroge</strong>. I am a Front End developer. I have passion for building pixel perfect, sensible and easy to applications.</p>
                 </div>
             </section>
             <section class="cv-block info">
                 <div class="container">
-                <div class="work-experience group" id="work-experience">
-                    <h2 class="text-center">Work Experience</h2>
-                    <div class="item">
-                    <div class="row">
-                        <div class="col-md-6">
-                        <h3>Web Developer</h3>
-                        <h4 class="organization">Amazing Co.</h4>
-                        </div>
-                        <div class="col-md-6">
-                        <time class="period">10/2013 - 04/2015</time>
-                        </div>
-                    </div>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eget velit ultricies, feugiat est sed, efficitur nunc, vivamus vel accumsan dui.</p>
-                    </div>
-                    <div class="item">
-                    <div class="row">
-                        <div class="col-md-6">
-                        <h3>Front End Developer</h3>
-                        <h4 class="organization">Innovative Org.</h4>
-                        </div>
-                        <div class="col-md-6">
-                        <time class="period">05/2015 - 12/2017</time>
-                        </div>
-                    </div>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eget velit ultricies, feugiat est sed, efficitur nunc, vivamus vel accumsan dui.</p>
-                    </div>
-                    <div class="item">
-                    <div class="row">
-                        <div class="col-md-6">
-                        <h3>Web Developer</h3>
-                        <h4 class="organization">Special Inc.</h4>
-                        </div>
-                        <div class="col-md-6">
-                        <time class="period">12/2017 - Present</time>
-                        </div>
-                    </div>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eget velit ultricies, feugiat est sed, efficitur nunc, vivamus vel accumsan dui.</p>
-                    </div>
-                </div>
-                <div class="education group" id="education">
-                    <h2 class="text-center">Education</h2>
-                    <div class="item">
-                    <div class="row">
-                        <div class="col-md-6">
-                        <h3>High School</h3>
-                        <h4 class="organization">Albert Einstein School</h4>
-                        </div>
-                        <div class="col-md-6">
-                        <time class="period">09/2005 - 05/2010</time>
-                        </div>
-                    </div>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eget velit ultricies, feugiat est sed, efficitur nunc, vivamus vel accumsan dui.</p>
-                    </div>
-                    <div class="item">
-                    <div class="row">
-                        <div class="col-md-6">
-                        <h3>Applied Physics</h3>
-                        <h4 class="organization">Stephen Hawking College</h4>
-                        </div>
-                        <div class="col-md-6">
-                        <time class="period">09/2010 - 06/2015</time>
-                        </div>
-                    </div>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eget velit ultricies, feugiat est sed, efficitur nunc, vivamus vel accumsan dui.</p>
-                    </div>
-                </div>
-                <div class="group" id="skills">
-                    <div class="row">
-                    <div class="col-md-6">
-                        <div class="skills info-card">
-                        <h2>Skills</h2>
-                        <h3>HTML</h3>
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="70"
-                            aria-valuemin="0" aria-valuemax="100" style="width:100%">
+                    <div class="work-experience group" id="work-experience">
+                        <h2 ref="title" class="text-center">Work Experience</h2>
+                        <div ref="item" class="item">
+                            <div class="row">
+                                <div class="col-md-6">
+                                <h3>Front End Developer</h3>
+                                <h4 class="organization">Finans 247 ApS</h4>
+                                </div>
+                                <div class="col-md-6">
+                                <time class="period float-right">05/2017 - present</time>
+                                </div>
                             </div>
+                            <p class="text-muted">
+                                Working as the lead Front End developer to ensure all the company's loan concepts (3) are interactive and usable.
+                                <ul class="pt-2">
+                                    <li>Implementing the Frontend system in Vue.js to adapt nicely to the backend core system built in symfony</li>
+                                    <li>Prototyping, designing and coding new designs</li>
+                                    <li>Occassionally updating the company's statistics (Vue and Chart.js)</li>
+                                    <li>Maintaining all our websites</li>
+                                </ul>
+                            </p>
                         </div>
-                        <h3>PHP</h3>
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="70"
-                            aria-valuemin="0" aria-valuemax="100" style="width:90%">
+                        <div ref="item1" class="item">
+                            <div class="row">
+                                <div class="col-md-6">
+                                <h3>Front End Developer</h3>
+                                <h4 class="organization">Startup Kyiv Org.</h4>
+                                </div>
+                                <div class="col-md-6">
+                                <time class="period float-right">09/2015 - 12/2016</time>
+                                </div>
                             </div>
+                            <p class="text-muted">
+                                Worked as an intern Front End Developer. My main task was implementing a platform for startups in Ukraine.
+                                <ul class="pt-2">
+                                    <li>Implementing the Frontend system in Vue.js to adapt nicely to the backend core system built in symfony</li>
+                                    <li>Prototyping, designing and coding new designs</li>
+                                    <li>Occassionally updating the company's statistics (Vue and Chart.js)</li>
+                                    <li>Maintaining all our websites</li>
+                                </ul>
+                            </p>
                         </div>
-                        <h3>JavaScript</h3>
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="70"
-                            aria-valuemin="0" aria-valuemax="100" style="width:80%">
+                        <div ref="item2" class="item">
+                            <div class="row">
+                                <div class="col-md-6">
+                                <h3>Freelance Web Developer</h3>
+                                <h4 class="organization">Freelance</h4>
+                                </div>
+                                <div class="col-md-6">
+                                <time class="period float-right">08/2009 - 07/2014</time>
+                                </div>
                             </div>
-                        </div>
+                            <p class="text-muted">
+                                Worked as an intern Front End Developer. My main task was implementing a platform for startups in Ukraine.
+                                <ul class="pt-2">
+                                    <li>Implementing the Frontend system in Vue.js to adapt nicely to the backend core system built in symfony</li>
+                                    <li>Prototyping, designing and coding new designs</li>
+                                    <li>Occassionally updating the company's statistics (Vue and Chart.js)</li>
+                                    <li>Maintaining all our websites</li>
+                                </ul>
+                            </p>
                         </div>
                     </div>
-                    <div class="col-md-6">
-                        <div class="contact-info info-card">
-                        <h2>Contact Info</h2>
+                    <div class="education group" id="education">
+                        <h2 class="text-center">Education</h2>
+                        <div class="item">
                         <div class="row">
-                            <div class="col-1">
-                            <i class="ion-android-calendar icon"></i>
+                            <div class="col-md-6">
+                            <h3>Bachelor in Web Development</h3>
+                            <!-- <h4 class="organization">Erhvervsakademi sjælland</h4> -->
+                            <img width="200px" src="https://www.easj.dk/wp-content/uploads/2017/11/easj_logo.png">
+                            <br>
+                            <br>
                             </div>
-                            <div class="col-9">
-                            <span>10/10/1990</span>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-1">
-                                <i class="ion-person icon"></i>
-                            </div>
-                            <div class="col-9">
-                            <span>John Smith</span>
+                            <div class="col-md-6">
+                            <time class="period">09/2010 - 06/2015</time>
                             </div>
                         </div>
+                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eget velit ultricies, feugiat est sed, efficitur nunc, vivamus vel accumsan dui.</p>
+                        </div>
+                    </div>
+                    <div class="group" id="skills">
                         <div class="row">
-                            <div class="col-1">
-                            <i class="ion-ios-telephone icon"></i>
+                        <div class="col-md-6">
+                            <div class="skills info-card">
+                            <h2>Skills</h2>
+                            <h3>Vue js</h3>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="70"
+                                aria-valuemin="0" aria-valuemax="80" style="width:100%">
+                                </div>
                             </div>
-                            <div class="col-9">
-                            <span>+235 3217 424</span>
+                            <h3>ES6</h3>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="70"
+                                aria-valuemin="0" aria-valuemax="70" style="width:100%">
+                                </div>
+                            </div>
+                            <h3>CSS/CSS3</h3>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="70"
+                                aria-valuemin="0" aria-valuemax="80" style="width:90%">
+                                </div>
+                            </div>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col-1">
-                            <i class="ion-at icon"></i>
+                        <div class="col-md-6">
+                            <div class="contact-info info-card">
+                            <h2>Contact Info</h2>
+                            <div class="row">
+                                <div class="col-1">
+                                <i class="icon-android-calendar icon"></i>
+                                </div>
+                                <div class="col-9">
+                                <span>10/10/1990</span>
+                                </div>
                             </div>
-                            <div class="col-9">
-                            <span>lorem@email.com</span>
+                            <br>
+                            <div class="row">
+                                <div class="col-1">
+                                    <i class="ion-person icon"></i>
+                                </div>
+                                <div class="col-9">
+                                <span>Job Gathu Njoroge</span>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="row">
+                                <div class="col-1">
+                                <i class="ion-ios-telephone icon"></i>
+                                </div>
+                                <div class="col-9">
+                                <span>+45 28 38 74 94</span>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="row">
+                                <div class="col-1">
+                                <i class="ion-at icon"></i>
+                                </div>
+                                <div class="col-9">
+                                <span>jobgathunjoroge@yahoo.com</span>
+                                </div>
+                            </div>
                             </div>
                         </div>
                         </div>
                     </div>
+                    <div class="hobbies group" id="hobbies">
+                        <h2 style="margin-bottom: 20px;" class="text-center">Hobbies</h2>
+                        <p class="text-center text-muted">
+                            Long walks, shooting pool, FIFA player of the Year (I wish), Netflix and chill (After a long fruitful day)
+                        </p>
                     </div>
-                </div>
-                <div class="hobbies group" id="hobbies">
-                    <h2 class="text-center">Hobbies</h2>
-                    <p class="text-center text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras risus ligula, iaculis ut metus sit amet, luctus pharetra mauris. Aliquam purus felis, pretium vel pretium vitae, dapibus sodales ante. Suspendisse potenti. Duis nunc eros.</p>
-                </div>
                 </div>
             </section>
             </main>
@@ -155,7 +174,50 @@
 </template>
 
 <script>
-    
+    import { TimelineLite, Back, Elastic, Expo } from 'gsap'
+
+    export default {
+        mounted() {
+            const { profile, intro, title, item, item1, item2 } = this.$refs
+            const timeline = new TimelineLite()
+
+            timeline.from(profile, .55, {
+                y: 20,
+                opacity: 0,
+                ease: Back.easeIn, // Specify an ease
+            })
+
+            timeline.from(intro, .55, {
+                y: 10,
+                opacity: 0,
+                ease: Power4.easeInOut, // Specify an ease
+            })
+
+            timeline.from(title, .55, {
+                y: 10,
+                opacity: 0,
+                ease: Power4.easeInOut, // Specify an ease
+            })
+
+            timeline.from(item, .65, {
+                y: 10,
+                opacity: 0,
+                ease: Power4.easeInOut, // Specify an ease
+            })
+
+            timeline.from(item1, .65, {
+                y: 10,
+                opacity: 0,
+                ease: Sine.easeInOut, // Specify an ease
+            })
+
+            timeline.from(item2, .65, {
+                y: 10,
+                opacity: 0,
+                ease: Sine.easeInOut, // Specify an ease
+            })
+        }
+    }
 </script>
 
 <style>
@@ -164,7 +226,6 @@
     border: 5px solid #eee;
 }
 .cv-block{
-    padding-bottom: 60px;
     padding-top: 60px;
 }
 
@@ -197,7 +258,8 @@
     background-repeat: no-repeat;
     margin: auto;
     border-radius: 100px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
+    margin-top: -50px;
 }
 
 .cv-block.info{
@@ -236,7 +298,7 @@
     background-color: #0ea0ff;
     display: inline-block;
     color: #fff;
-    padding: 2px 8px;
+    padding: 2px 20px;
     border-radius: 2em;
 }
 
@@ -297,5 +359,9 @@
     max-width: 700px;
     margin: auto;
     font-size: 1.2em;
+}
+
+pt-2 {
+    padding-top: 10px;
 }
 </style>
