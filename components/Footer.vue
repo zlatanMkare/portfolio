@@ -17,7 +17,6 @@
                 <span>github</span>
               </li>
             </ul>
-            <br>
             <small class="text-uppercase">© 2018. Thou shall not steal</small>
           </div>
         </div>
@@ -32,6 +31,9 @@ export default {
 </script>
 
 <style scoped>
+    .social {
+      float: right;
+    }
     .social li span{
         text-transform: uppercase;
         font-size: 10px;
@@ -40,7 +42,9 @@ export default {
     }
 
     small {
+      padding-top: 25px;
         font-size: 10px;
+        float: left;
     }
 </style>
 

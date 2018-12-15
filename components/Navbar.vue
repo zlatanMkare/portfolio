@@ -61,6 +61,10 @@ export default {
     color: #000;
     letter-spacing: 2px;
   }
+  .nav-item a::hover {
+    text-decoration: underline;
+    font-weight: 500;
+  }
   .no-padd-x {
     padding-left: 0px;
     padding-right: 0px;

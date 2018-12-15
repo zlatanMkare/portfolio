@@ -4,8 +4,8 @@
 
         <div class="row">
             <div class="col-md-10">
-                <p class="subheading">some projects I've worked on</p>
-                <h2 class="title">
+                <p ref="subheading" class="subheading">some projects I've worked on</p>
+                <h2 ref="title" class="title">
                     As a front-end developer, I try to build <span class="text-bg">progressive</span> and modern <span class="text-bg">websites</span> that users will love.
                 </h2>
             </div>
@@ -14,62 +14,80 @@
         <div class="bigpadding"></div>
 
         <div class="row portfolio">
-            <div class="col-md-8">
-                <img class="img-fluid" src="../static/project1.png">
+            <div class="col-md-6" style="background-color: #16e5c5;">
+                <!-- <img class="img-fluid" src="../static/project1.png"> -->
             </div>
-            <div class="col-md-4">
+            <div class="col-md-5 offset-md-1">
                 <span class="number">01.</span>
                 <br>
-                <p class="subheading">Project one</p>
+                <p class="subheading">Minifinans</p>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo harum natus deleniti dignissimos delectus sequi, dolores eius saepe in sunt fuga maxime rerum rem explicabo iste magnam nesciunt libero recusandae.
+                    Minifinans is one of the flagship websites for Finans247. I worked on everything on the website, from the homepage design to the loan application process.
                 </p>
-                <br>
-                <h2 class="title">Project one</h2>
+                <p><a target="_blank" href="https://minifinans.dk">Live site</a></p>
             </div> 
         </div>
 
-        <div class="smallpadding"></div>
+        <div class="bigpadding"></div>
 
         <div class="row portfolio">
-            <div class="col-md-8">
-                <img class="img-fluid" src="../static/dest.png">
-            </div>
-            <div class="col-md-4">
+            <div class="col-md-5">
                 <span class="number">02.</span>
                 <br>
-                <p class="subheading">Project two</p>
+                <p class="subheading">Destinasia</p>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo harum natus deleniti dignissimos delectus sequi, dolores eius saepe in sunt fuga maxime rerum rem explicabo iste magnam nesciunt libero recusandae.
+                    Destinasia is a pet project of mine that I worked on. The website is basically a tour booking system. Currently I havn't had time to finish building it to a fully working website.
                 </p>
-                <br>
-                <h2 class="title">Project two</h2>
+                <p><a target="_blank" href="destinasia.paperplane.io">Live site</a></p>
+            </div>
+            <div class="col-md-6 offset-md-1" style="background-color: #16e5c5;">
+                <!-- <img class="img-fluid" src="../static/dest.png"> -->
             </div>
         </div>
 
-        <div class="smallpadding"></div>
+        <div class="bigpadding"></div>
 
         <div class="row portfolio">
-            <div class="col-md-8">
-                <img class="img-fluid" src="../static/learnnow.png">
+            <div class="col-md-6" style="background-color: #ec4c99;">
+                <!-- <img class="img-fluid" src="../static/learnnow.png"> -->
             </div>
-            <div class="col-md-4">
+            <div class="col-md-5 offset-md-1">
                 <span class="number">03.</span>
                 <br>
-                <p class="subheading">Project three</p>
+                <p class="subheading">Learn Now</p>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo harum natus deleniti dignissimos delectus sequi, dolores eius saepe in sunt fuga maxime rerum rem explicabo iste magnam nesciunt libero recusandae.
+                    Learn now is a website where users can easily learn a new language. The website is coded in Vue js on the frontend, and symfony framework on the backend.
                 </p>
-                <br>
-                <h2 class="title">Project three</h2>
+                <p><a target="_blank" href="https://learnnow.eu">Live site</a></p>
             </div>
         </div>
+
+        <div class="bigpadding"></div>
     </section>
 </template>
 
 <script>
+import { TimelineLite, Back, Elastic, Expo } from 'gsap'
 export default {
-    
+
+    mounted() {
+        const { title, subheading } = this.$refs
+        const timeline = new TimelineLite()
+
+        timeline.from(subheading, .15, {
+            y: 10,
+            opacity: 0,
+            ease: Sine.easeInOut
+        })
+
+        timeline.from(title, .3, {
+            y: 10,
+            opacity: 0,
+            ease: Sine.easeInOut,
+            delay: .01
+        })
+    }
+
 }
 </script>
 

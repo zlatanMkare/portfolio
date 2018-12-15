@@ -9,7 +9,7 @@
             <br> 
             I'm Job Njoroge.
           </h1>
-          <span class="slogan-text">Front end is my best end</span>
+          <span ref="slogan" class="slogan-text">Front end is my best end</span>
           <p ref="intro" class="intro">
             I'm a front-end developer currently working at Finans247, a fintech startup company based in Copenhagen, Denmark. At the moment I work
             a lot with vue.js, Wordpress, CSS animations and Symfony PHP framework. My main task invole designing and building the frontend architecture for our loan system, which is 
@@ -21,7 +21,7 @@
               class="btn btn-light btn-pill">Check out my resume</nuxt-link>
           </div>
         </div>
-        <div class="col-md-4">
+        <!-- <div class="col-md-4">
           <div class="svg">
             <svg width="300" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 511.417 511.417" style="enable-background:new 0 0 511.417 511.417;" xml:space="preserve">
               <g transform="matrix(1.25 0 0 -1.25 0 45)">
@@ -40,7 +40,7 @@
               </g>
             </svg>
           </div>
-        </div>
+        </div> -->
     </div>
   </section>
 </template>
@@ -57,7 +57,7 @@ export default {
     },
 
     mounted() {
-        const { hello, title, intro, btn } = this.$refs
+        const { hello, title, slogan, intro, btn } = this.$refs
         const timeline = new TimelineLite()
 
         timeline.from(hello, .15, {
@@ -68,6 +68,13 @@ export default {
 
         timeline.from(title, .3, {
             y: 10,
+            opacity: 0,
+            ease: Sine.easeInOut,
+            delay: .01
+        })
+
+        timeline.from(slogan, .4, {
+            y: -5,
             opacity: 0,
             ease: Sine.easeInOut,
             delay: .01
