@@ -9,20 +9,20 @@
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <nuxt-link
+            <li ref="link1" class="nav-item">
+              <nuxt-link class="link"
               to="/">Home</nuxt-link>
             </li>
-            <li class="nav-item">
-              <nuxt-link
+            <li ref="link2" class="nav-item">
+              <nuxt-link class="link"
               to="/portfolio">Portfolio</nuxt-link>
             </li>
-            <li class="nav-item">
-              <nuxt-link
+            <li ref="link3" class="nav-item">
+              <nuxt-link class="link"
               to="/cv">Resume</nuxt-link>
             </li>
-            <li class="nav-item">
-              <nuxt-link
+            <li ref="link4" class="nav-item">
+              <nuxt-link class="link"
               to="/contact">Contact</nuxt-link>
             </li>
           </ul>
@@ -37,13 +37,37 @@ import { TimelineLite, Back, Elastic, Expo } from 'gsap'
 
 export default {
     mounted() {
-        const { logo } = this.$refs
-          const timeline = new TimelineLite()
+        const { logo, link1, link2, link3, link4 } = this.$refs
+        const timeline = new TimelineLite()
 
-          timeline.to(logo, 1, {
-            x: -15,
-            opacity: 1,
-            ease: Back.easeInOut, // Specify an ease
+          timeline.from(logo, 1, {
+            y: -10,
+            opacity: 0,
+            ease: Sine.easeInOut
+          })
+
+          timeline.from(link1, .15, {
+            y: -10,
+            opacity: 0,
+            ease: Sine.easeInOut
+          })
+
+          timeline.from(link2, .15, {
+            y: -10,
+            opacity: 0,
+            ease: Sine.easeInOut
+          })
+
+          timeline.from(link3, .15, {
+            y: -10,
+            opacity: 0,
+            ease: Sine.easeInOut
+          })
+
+          timeline.from(link4, .15, {
+            y: -10,
+            opacity: 0,
+            ease: Sine.easeInOut
           })
     }
 }
@@ -54,15 +78,12 @@ export default {
   .navbar {
     padding: 2rem 1.5rem;
   }
-  .nav-item a {
+  .nav-item .link {
     font-size: 12px;
     text-transform: uppercase;
     padding: 0 20px;
     color: #000;
     letter-spacing: 2px;
-  }
-  .nav-item a::hover {
-    text-decoration: underline;
     font-weight: 500;
   }
   .no-padd-x {

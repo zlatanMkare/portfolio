@@ -2,11 +2,11 @@
   <section>
     <div class="row d-flex align-items-center">
         <div class="col-md-8">
+          <span class="hello" ref="hello">
+              Hello!
+          </span>
+          <br> 
           <h1 ref="title" class="title">
-            <span ref="hello">
-                Hello!
-            </span>
-            <br> 
             I'm Job Njoroge.
           </h1>
           <span ref="slogan" class="slogan-text">Front end is my best end</span>
@@ -18,7 +18,7 @@
           <div ref="btn" class="links">
             <nuxt-link
               to="/Cv"
-              class="btn btn-light btn-pill">Check out my resume</nuxt-link>
+              class="btn btn-primary btn-pill">Check out my resume</nuxt-link>
           </div>
         </div>
         <!-- <div class="col-md-4">
@@ -117,7 +117,7 @@ export default {
   padding: 0 25px;
 }
 
-.title span {
+.hello {
   color: #dedede;
   font-weight: 500;
   font-size: 18px;

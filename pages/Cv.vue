@@ -181,38 +181,38 @@
             const { profile, intro, title, item, item1, item2 } = this.$refs
             const timeline = new TimelineLite()
 
-            timeline.from(profile, .55, {
+            timeline.from(profile, .25, {
                 y: 20,
                 opacity: 0,
-                ease: Back.easeIn, // Specify an ease
+                ease: Sine.easeInOut, // Specify an ease
             })
 
-            timeline.from(intro, .55, {
-                y: 10,
-                opacity: 0,
-                ease: Power4.easeInOut, // Specify an ease
-            })
-
-            timeline.from(title, .55, {
-                y: 10,
-                opacity: 0,
-                ease: Power4.easeInOut, // Specify an ease
-            })
-
-            timeline.from(item, .65, {
-                y: 10,
-                opacity: 0,
-                ease: Power4.easeInOut, // Specify an ease
-            })
-
-            timeline.from(item1, .65, {
+            timeline.from(intro, .25, {
                 y: 10,
                 opacity: 0,
                 ease: Sine.easeInOut, // Specify an ease
             })
 
-            timeline.from(item2, .65, {
+            timeline.from(title, .25, {
                 y: 10,
+                opacity: 0,
+                ease: Sine.easeInOut, // Specify an ease
+            })
+
+            timeline.from(item, .65, {
+                x: 10,
+                opacity: 0,
+                ease: Sine.easeInOut, // Specify an ease
+            })
+
+            timeline.from(item1, .65, {
+                x: 10,
+                opacity: 0,
+                ease: Sine.easeInOut, // Specify an ease
+            })
+
+            timeline.from(item2, .65, {
+                x: 10,
                 opacity: 0,
                 ease: Sine.easeInOut, // Specify an ease
             })
