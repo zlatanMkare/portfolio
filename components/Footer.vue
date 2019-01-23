@@ -6,18 +6,17 @@
             <ul class="social">
               <li>
                 <!-- <i class="icon ion-logo-codepen"></i> -->
-                <span>codepen</span>
+                <a href="https://codepen.io/jobgathu/" target="_blank">codepen</a>
               </li>
               <li>
                 <!-- <i class="icon ion-logo-instagram"></i> -->
-                <span>instagram</span>
+                <a href="https://github.com/zlatanMkare" target="_blank">instagram</a>
               </li>
               <li>
                 <!-- <i class="icon ion-logo-github"></i> -->
-                <span>github</span>
+                <a href="https://github.com/zlatanMkare" target="_blank">github</a>
               </li>
             </ul>
-            <br>
             <small class="text-uppercase">© 2018. Thou shall not steal</small>
           </div>
         </div>
@@ -32,7 +31,10 @@ export default {
 </script>
 
 <style scoped>
-    .social li span{
+    .social {
+      float: right;
+    }
+    .social li a{
         text-transform: uppercase;
         font-size: 10px;
         letter-spacing: 2px;
@@ -40,7 +42,9 @@ export default {
     }
 
     small {
+      padding-top: 25px;
         font-size: 10px;
+        float: left;
     }
 </style>
 

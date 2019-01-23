@@ -2,7 +2,7 @@
     <section id="contact">
         <div class="smallpadding"></div>
 
-        <div class="row">
+        <div class="row d-flex align-items-center">
             <div class="col-md-8">
                 <p class="subheading">get in touch</p>
                 <h2 class="title">
@@ -10,12 +10,13 @@
                 </h2>
                 <br>
                 <p>
-                    If you'd like to talk about a project you want help with or need an advice about frontend development, just drop me a message at jobgathunjoroge@yahoo.com.
+                    I'm always available to have a chat, so do not hesitate to get in contact with me. Use the button below
+                    to send me a mail and I'll be sure to get back as soon as possible.
                 </p>
                 <br>
                 <div>
-                    <a class="btn btn-primary" href="#">
-                        Halla at me <i class="icon ion-md-arrow"></i>
+                    <a class="btn btn-primary" href="mailto:jobgathunjoroge@yahoo.com">
+                        Send mail <i class="icon ion-md-arrow"></i>
                     </a>
                 </div>
             </div>
@@ -30,5 +31,11 @@ export default {
 </script>
 
 <style scoped>
+.row {
+  height: 65vh;
+}
 
+.title {
+    line-height: 45px;
+}
 </style>

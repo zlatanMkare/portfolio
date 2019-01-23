@@ -44,6 +44,7 @@ html,body{
   margin:0;
   padding:0;
   height: 100vh;
+  cursor: url("https://i.imgur.com/xywWboC.png"), auto;
 }
 
 *, *:before, *:after {
@@ -133,6 +134,10 @@ p {
     word-spacing: 5px;
     padding-bottom: 15px;
     line-height: 1.5;
+}
+
+#__layout {
+  overflow: hidden;
 }
 
 </style>
