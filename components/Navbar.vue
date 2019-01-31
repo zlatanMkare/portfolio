@@ -10,20 +10,24 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
             <li ref="link1" class="nav-item">
-              <nuxt-link class="link"
-              to="/">Home</nuxt-link>
+              <nuxt-link class="link" to="/"> 
+                <span class="menu-item-name">Home</span>
+              </nuxt-link>
             </li>
             <li ref="link2" class="nav-item">
-              <nuxt-link class="link"
-              to="/portfolio">Portfolio</nuxt-link>
+              <nuxt-link class="link" to="/portfolio">
+                <span class="menu-item-name">Portfolio</span>
+              </nuxt-link>
             </li>
             <li ref="link3" class="nav-item">
-              <nuxt-link class="link"
-              to="/cv">Resume</nuxt-link>
+              <nuxt-link class="link" to="/cv">
+                <span class="menu-item-name">Resume</span>
+              </nuxt-link>
             </li>
             <li ref="link4" class="nav-item">
-              <nuxt-link class="link"
-              to="/contact">Contact</nuxt-link>
+              <nuxt-link class="link" to="/contact">
+                <span class="menu-item-name">Contact</span>
+              </nuxt-link>
             </li>
           </ul>
         </div>
@@ -78,6 +82,9 @@ export default {
   .navbar {
     padding: 2rem 1.5rem;
   }
+  .nav-item {
+    position: relative;
+  }
   .nav-item .link {
     font-size: 12px;
     text-transform: uppercase;
@@ -86,6 +93,32 @@ export default {
     letter-spacing: 2px;
     font-weight: 500;
   }
+
+  .link .menu-item-name:before {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    width: 45%;
+    height: 2px;
+    pointer-events: none;
+    background: currentColor;
+    transform: scale3d(0,1,1);
+    transform-origin: 100% 50%;
+    transition: transform 0.5s;
+    transition-timing-function: cubic-bezier(0.8,0,0.2,1);
+  }
+
+  .link:hover .menu-item-name::before,
+  .link:focus .menu-item-name::before,
+  .link:active .menu-item-name::before {
+    transform: scale3d(1,1,1);
+    transform-origin: 0% 50%;
+  }
+
   .no-padd-x {
     padding-left: 0px;
     padding-right: 0px;

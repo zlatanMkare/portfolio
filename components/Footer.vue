@@ -34,17 +34,29 @@ export default {
     .social {
       float: right;
     }
+    .social:before {
+      content: '';
+      height: 1px;
+      width: 4rem;
+      background: #000;
+      position: relative;
+      top: 1.85rem;
+      left: 0;
+    }
     .social li a{
         text-transform: uppercase;
         font-size: 10px;
-        letter-spacing: 2px;
+        letter-spacing: 1px;
         color: #000;
+        font-weight: 400;
     }
 
     small {
       padding-top: 25px;
-        font-size: 10px;
-        float: left;
+      font-size: 10px;
+      float: left;
+      color: #000;
+      font-weight: 400;
     }
 </style>
 
