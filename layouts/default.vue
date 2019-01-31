@@ -1,7 +1,13 @@
 <template>
   <div>
+    <!-- <img class="seo-bg-shape-1" src="http://demo.themefisher.com/themefisher/dtox/images/background-shape/seo-ball-1.png" alt="bg-shape"> -->
+    <!-- <img class="seo-bg-shape-2" src="http://demo.themefisher.com/themefisher/dtox/images/background-shape/seo-half-cycle.png" alt="bg-shape"> -->
+    <!-- <img class="seo-bg-shape-3" src="http://demo.themefisher.com/themefisher/dtox/images/background-shape/seo-ball-2.png" alt="bg-shape"> -->
+    <!-- <img class="seo-bg-shape-4" src="http://demo.themefisher.com/themefisher/dtox/images/background-shape/feature-bg-2.png" alt="bg-shape">
+    <img class="seo-bg-shape-5" src="http://demo.themefisher.com/themefisher/dtox/images/background-shape/service-half-cycle.png" alt="bg-shape">
+    <img class="seo-bg-shape-6" src="http://demo.themefisher.com/themefisher/dtox/images/background-shape/team-bg-triangle.png" alt="bg-shape">
+    <img class="seo-bg-shape-7" src="http://demo.themefisher.com/themefisher/dtox/images/background-shape/team-bg-dots.png" alt="bg-shape"> -->
     <Navbar></Navbar>
-
     <div class="container-fluid">
       <div class="content">
         <div class="container">
@@ -61,7 +67,6 @@ html,body{
 }
 
 footer {
-  height: 100px;
   bottom: 0;
   left: 0;
   right: 0;
@@ -77,7 +82,12 @@ footer {
   font-weight: 700;
   color: #000;
   text-decoration: none;
+}
 
+.link:hover {
+  text-decoration: none;
+  color: #1F9BCF;
+  font-size: 14px;
 }
 
 .contact-info p {
@@ -140,5 +150,51 @@ p {
   overflow: hidden;
 }
 
+.seo-bg-shape-7 {
+  position: absolute;
+  bottom: 30%;
+  right: 180px;
+  z-index: -1;
+}
+.seo-bg-shape-6 {
+    position: absolute;
+    bottom: 20%;
+    right: 40%;
+    z-index: -1;
+}
+.seo-bg-shape-5 {
+  position: absolute;
+  right: 0;
+  top: 150px;
+  z-index: -1;
+}
+.seo-bg-shape-4 {
+  position: absolute;
+  left: 0;
+  bottom: 15%;
+  z-index: -1;
+}
+.seo-bg-shape-3 {
+  position: absolute;
+  right: 0;
+  bottom: 20%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  z-index: -1;
+}
+.seo-bg-shape-2 {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  z-index: -1;
+}
+.seo-bg-shape-1 {
+  position: absolute;
+  top: 100px;
+  left: 20px;
+  z-index: -1;
+}
 </style>
 
