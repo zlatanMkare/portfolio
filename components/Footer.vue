@@ -17,7 +17,7 @@
                 <a href="https://github.com/zlatanMkare" target="_blank">github</a>
               </li>
             </ul>
-            <small class="text-uppercase">© 2018. Thou shall not steal</small>
+            <small class="text-uppercase">© 2019. Thou shall not steal</small>
           </div>
         </div>
       </div>
