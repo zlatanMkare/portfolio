@@ -8,7 +8,7 @@
                 </div>
                 <br>
                 <br>
-                <p ref="intro">Hello! I am <strong>Job Njoroge</strong>. I am a Front End developer. I have passion for building pixel perfect, sensible and easy to applications.</p>
+                <p ref="intro">Hello! I am <strong>Job Njoroge</strong>. I am a Front End developer. I have passion for building pixel perfect, sensible and easy to use applications.</p>
                 </div>
             </section>
             <section class="cv-block info">
@@ -38,40 +38,38 @@
                         <div ref="item1" class="item">
                             <div class="row">
                                 <div class="col-md-6">
-                                <h3>Front End Developer</h3>
-                                <h4 class="organization">Startup Kyiv Org.</h4>
+                                <h3>Freelance Web Developer</h3>
+                                <h4 class="organization">Freelancer, upwork</h4>
                                 </div>
                                 <div class="col-md-6">
-                                <time class="period float-right">09/2015 - 12/2016</time>
+                                <time class="period float-right">04/2015 - 12/2015</time>
                                 </div>
                             </div>
                             <p class="text-muted">
-                                Worked as an intern Front End Developer. My main task was implementing a platform for startups in Ukraine.
+                                After my studies, I began working as a freelance web developer. I developed websites for different clients.
                                 <ul class="pt-2">
-                                    <li>Implementing the Frontend system in Vue.js to adapt nicely to the backend core system built in symfony</li>
+                                    <li>Built websites for clients in Drupal CMS and WordPress.</li>
                                     <li>Prototyping, designing and coding new designs</li>
-                                    <li>Occassionally updating the company's statistics (Vue and Chart.js)</li>
-                                    <li>Maintaining all our websites</li>
+                                    <li>Occassionally made custom website templates, and UI kits</li>
                                 </ul>
                             </p>
                         </div>
-                        <div ref="item2" class="item">
+                        <div ref="item1" class="item">
                             <div class="row">
                                 <div class="col-md-6">
-                                <h3>Freelance Web Developer</h3>
-                                <h4 class="organization">Freelance</h4>
+                                <h3>Web Developer</h3>
+                                <h4 class="organization">Startup Kyiv Org.</h4>
                                 </div>
                                 <div class="col-md-6">
-                                <time class="period float-right">08/2009 - 07/2014</time>
+                                <time class="period float-right">03/2014 - 06/2014</time>
                                 </div>
                             </div>
                             <p class="text-muted">
-                                Worked as an intern Front End Developer. My main task was implementing a platform for startups in Ukraine.
+                                Worked as an intern Web Developer at Startup Kyiv, a startup based in Copenhagen that helps startups in Kyiv, Ukraine, easily network. My tasks included
                                 <ul class="pt-2">
-                                    <li>Implementing the Frontend system in Vue.js to adapt nicely to the backend core system built in symfony</li>
-                                    <li>Prototyping, designing and coding new designs</li>
-                                    <li>Occassionally updating the company's statistics (Vue and Chart.js)</li>
-                                    <li>Maintaining all our websites</li>
+                                    <li>Implementing the system in in Drupal</li>
+                                    <li>Implementing the startup maps using Google Maps API</li>
+                                    <li>Prototyping, designing and coding new features</li>
                                 </ul>
                             </p>
                         </div>
@@ -83,15 +81,18 @@
                             <div class="col-md-6">
                             <h3>Bachelor in Web Development</h3>
                             <!-- <h4 class="organization">Erhvervsakademi sjælland</h4> -->
-                            <img width="200px" src="https://www.easj.dk/wp-content/uploads/2017/11/easj_logo.png">
+                            <img width="200px" src="http://zealand.com/wp-content/themes/easj/images/logo.png">
                             <br>
                             <br>
                             </div>
                             <div class="col-md-6">
-                            <time class="period">09/2010 - 06/2015</time>
+                            <time class="period">09/2009 - 06/2014</time>
                             </div>
                         </div>
-                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eget velit ultricies, feugiat est sed, efficitur nunc, vivamus vel accumsan dui.</p>
+                        <p class="text-muted">
+                            Studied at Zealand (Erhvervsakademi Sjælland - Roskilde). I started out with an A.P Degree in Computer Science, where I was introduced to programming, mostly Java and C#. After finishing my degree, I toped up in 
+                            Bachelor in Web Development, where I turned my focus to Frontend development (JavaScript, HTML5 and Css3).
+                        </p>
                         </div>
                     </div>
                     <div class="group" id="skills">
@@ -99,22 +100,22 @@
                         <div class="col-md-6">
                             <div class="skills info-card">
                             <h2>Skills</h2>
+                            <h3>CSS/CSS3</h3>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="80"
+                                aria-valuemin="0" aria-valuemax="80" style="width:80%">
+                                </div>
+                            </div>
+                            <h3>Vanilla Js, ES6 & JQuery</h3>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="75"
+                                aria-valuemin="0" aria-valuemax="75" style="width:75%">
+                                </div>
+                            </div>
                             <h3>Vue js</h3>
                             <div class="progress">
                                 <div class="progress-bar" role="progressbar" aria-valuenow="70"
-                                aria-valuemin="0" aria-valuemax="80" style="width:100%">
-                                </div>
-                            </div>
-                            <h3>ES6</h3>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="70"
-                                aria-valuemin="0" aria-valuemax="70" style="width:100%">
-                                </div>
-                            </div>
-                            <h3>CSS/CSS3</h3>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="70"
-                                aria-valuemin="0" aria-valuemax="80" style="width:90%">
+                                aria-valuemin="0" aria-valuemax="70" style="width:70%">
                                 </div>
                             </div>
                             </div>
@@ -122,15 +123,6 @@
                         <div class="col-md-6">
                             <div class="contact-info info-card">
                             <h2>Contact Info</h2>
-                            <div class="row">
-                                <div class="col-1">
-                                <i class="icon-android-calendar icon"></i>
-                                </div>
-                                <div class="col-9">
-                                <span>10/10/1990</span>
-                                </div>
-                            </div>
-                            <br>
                             <div class="row">
                                 <div class="col-1">
                                     <i class="ion-person icon"></i>
@@ -164,7 +156,7 @@
                     <div class="hobbies group" id="hobbies">
                         <h2 style="margin-bottom: 20px;" class="text-center">Hobbies</h2>
                         <p class="text-center text-muted">
-                            Long walks, shooting pool, FIFA player of the Year (I wish), Netflix and chill (After a long fruitful day)
+                            Long walks, shooting pool, FIFA player of the Year (I wish), Netflix and chill (After a long fruitful day) and learning something new and handy, like making a tree house :D
                         </p>
                     </div>
                 </div>
@@ -359,6 +351,10 @@
     max-width: 700px;
     margin: auto;
     font-size: 1.2em;
+}
+
+#hobbies {
+    margin-bottom: 4em;
 }
 
 pt-2 {
