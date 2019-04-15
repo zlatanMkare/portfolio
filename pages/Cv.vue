@@ -25,7 +25,7 @@
                                 <time class="period float-right">05/2017 - present</time>
                                 </div>
                             </div>
-                            <p class="text-muted">
+                            <div class="text-muted">
                                 Working as the lead Front End developer to ensure all the company's loan concepts (3) are interactive and usable.
                                 <ul class="pt-2">
                                     <li>Implementing the Frontend system in Vue.js to adapt nicely to the backend core system built in symfony</li>
@@ -33,7 +33,7 @@
                                     <li>Occassionally updating the company's statistics (Vue and Chart.js)</li>
                                     <li>Maintaining all our websites</li>
                                 </ul>
-                            </p>
+                            </div>
                         </div>
                         <div ref="item1" class="item">
                             <div class="row">
@@ -45,16 +45,16 @@
                                 <time class="period float-right">04/2015 - 12/2015</time>
                                 </div>
                             </div>
-                            <p class="text-muted">
+                            <div class="text-muted">
                                 After my studies, I began working as a freelance web developer. I developed websites for different clients.
                                 <ul class="pt-2">
                                     <li>Built websites for clients in Drupal CMS and WordPress.</li>
                                     <li>Prototyping, designing and coding new designs</li>
                                     <li>Occassionally made custom website templates, and UI kits</li>
                                 </ul>
-                            </p>
+                            </div>
                         </div>
-                        <div ref="item1" class="item">
+                        <div ref="item2" class="item">
                             <div class="row">
                                 <div class="col-md-6">
                                 <h3>Web Developer</h3>
@@ -64,14 +64,14 @@
                                 <time class="period float-right">03/2014 - 06/2014</time>
                                 </div>
                             </div>
-                            <p class="text-muted">
+                            <div class="text-muted">
                                 Worked as an intern Web Developer at Startup Kyiv, a startup based in Copenhagen that helps startups in Kyiv, Ukraine, easily network. My tasks included
                                 <ul class="pt-2">
                                     <li>Implementing the system in in Drupal</li>
                                     <li>Implementing the startup maps using Google Maps API</li>
                                     <li>Prototyping, designing and coding new features</li>
                                 </ul>
-                            </p>
+                            </div>
                         </div>
                     </div>
                     <div class="education group" id="education">
@@ -81,12 +81,12 @@
                             <div class="col-md-6">
                             <h3>Bachelor in Web Development</h3>
                             <!-- <h4 class="organization">Erhvervsakademi sjælland</h4> -->
-                            <img width="200px" src="http://zealand.com/wp-content/themes/easj/images/logo.png">
+                            <img width="200px" src="../static/school_logo.png">
                             <br>
                             <br>
                             </div>
                             <div class="col-md-6">
-                            <time class="period">09/2009 - 06/2014</time>
+                            <time class="period float-right">09/2009 - 06/2014</time>
                             </div>
                         </div>
                         <p class="text-muted">
@@ -100,24 +100,26 @@
                         <div class="col-md-6">
                             <div class="skills info-card">
                             <h2>Skills</h2>
-                            <h3>CSS/CSS3</h3>
+                            <h3>Vue js, ES6 & JQuery</h3>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="70"
+                                aria-valuemin="0" aria-valuemax="80" style="width:80%">
+                                </div>
+                            </div>
+                            <h3>HTML5, CSS/CSS3, LESS</h3>
                             <div class="progress">
                                 <div class="progress-bar" role="progressbar" aria-valuenow="80"
                                 aria-valuemin="0" aria-valuemax="80" style="width:80%">
                                 </div>
                             </div>
-                            <h3>Vanilla Js, ES6 & JQuery</h3>
+                            <h3>CMS (Wordpress)</h3>
                             <div class="progress">
                                 <div class="progress-bar" role="progressbar" aria-valuenow="75"
-                                aria-valuemin="0" aria-valuemax="75" style="width:75%">
-                                </div>
-                            </div>
-                            <h3>Vue js</h3>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="70"
                                 aria-valuemin="0" aria-valuemax="70" style="width:70%">
                                 </div>
                             </div>
+                            <h3>Other notable skills</h3>
+                            <p>Drupal, twig, Sass, Vanilla Js </p>
                             </div>
                         </div>
                         <div class="col-md-6">
@@ -125,7 +127,7 @@
                             <h2>Contact Info</h2>
                             <div class="row">
                                 <div class="col-1">
-                                    <i class="ion-person icon"></i>
+                                    <img width="20px" src="https://img.icons8.com/ios-glyphs/48/000000/user.png">
                                 </div>
                                 <div class="col-9">
                                 <span>Job Gathu Njoroge</span>
@@ -134,7 +136,7 @@
                             <br>
                             <div class="row">
                                 <div class="col-1">
-                                <i class="ion-ios-telephone icon"></i>
+                                <img width="20px" src="https://img.icons8.com/ios/50/000000/phonelink-ring.png">
                                 </div>
                                 <div class="col-9">
                                 <span>+45 28 38 74 94</span>
@@ -143,10 +145,19 @@
                             <br>
                             <div class="row">
                                 <div class="col-1">
-                                <i class="ion-at icon"></i>
+                                <img width="20px" src="https://img.icons8.com/ios/50/000000/new-post.png">
                                 </div>
                                 <div class="col-9">
                                 <span>jobgathunjoroge@yahoo.com</span>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="row">
+                                <div class="col-1">
+                                <img width="20px" src="https://img.icons8.com/ios/50/000000/linkedin.png">
+                                </div>
+                                <div class="col-9">
+                                <span><a href="https://www.linkedin.com/in/job-njoroge/" target="_blank">linkedin profile</a></span>
                                 </div>
                             </div>
                             </div>

@@ -14,7 +14,7 @@ module.exports = {
       { rel: 'stylesheet', href: 'https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css' },
       { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/shards-ui@2.1.0/dist/css/shards.min.css' },
       // { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css' },
-      { rel: 'stylesheet', href: 'https://unpkg.com/ionicons@4.3.0/dist/css/ionicons.min.css' }
+      { rel: 'stylesheet', href: 'https://use.fontawesome.com/releases/v5.8.1/css/all.css' }
     ]
   },
   /*
