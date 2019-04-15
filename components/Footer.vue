@@ -10,14 +10,14 @@
               </li>
               <li>
                 <!-- <i class="icon ion-logo-instagram"></i> -->
-                <a href="https://github.com/zlatanMkare" target="_blank">instagram</a>
+                <a href="https://www.linkedin.com/in/job-njoroge/" target="_blank">linkedin</a>
               </li>
               <li>
                 <!-- <i class="icon ion-logo-github"></i> -->
                 <a href="https://github.com/zlatanMkare" target="_blank">github</a>
               </li>
             </ul>
-            <small class="text-uppercase">© 2019. Thou shall not steal</small>
+            <small class="text-uppercase">© {{year}}. Thou shall not steal</small>
           </div>
         </div>
       </div>
@@ -26,7 +26,15 @@
 
 <script>
 export default {
-    
+    data() {
+      return {
+        year: ''
+      }
+    },
+    beforeMount() {
+        let date = new Date();
+        this.year = date.getFullYear();
+    }
 }
 </script>
 
