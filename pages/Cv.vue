@@ -167,7 +167,7 @@
                     <div class="hobbies group" id="hobbies">
                         <h2 style="margin-bottom: 20px;" class="text-center">Hobbies</h2>
                         <p class="text-center text-muted">
-                            Long walks, shooting pool, FIFA player of the Year (I wish), Netflix and chill (After a long fruitful day) and learning something new and handy, like making a tree house :D
+                            Long walks, shooting pool, football, Netflix and chill, learning something new and the list goes on and on :D
                         </p>
                     </div>
                 </div>
