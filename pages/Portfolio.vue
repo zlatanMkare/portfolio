@@ -80,6 +80,16 @@
         </div>
 
         <div class="bigpadding"></div>
+
+        <div class="row portfolio">
+            <div class="col-md-12">
+                <h3 class="others">
+                    Other projects I've been involved in include <a target="_blank" href="https://kassekreditten.dk">kassekreditten.dk</a>, <a target="_blank" href="https://folkelaan.dk">folkelaan.dk</a>, <a target="_blank" href="https://kvikto.dk">kvikto.dk</a> and <a target="_blank" href="https://detmodernehjem.dk">detmodernehjem.dk</a> among others.
+                </h3>
+            </div>
+        </div>
+
+        <div class="bigpadding"></div>
     </section>
 </template>
 
@@ -136,5 +146,15 @@ export default {
         background: rgb(25, 25, 25);
         padding: 0px 10px;
         color: rgb(255, 255, 255);
+    }
+
+    .others {
+        line-height: 2;
+    }
+
+    .others a {
+        color: #eeeeee;
+        background: #000;
+        padding: 5px;
     }
 </style>
