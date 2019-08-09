@@ -31,7 +31,7 @@
         <div class="bigpadding"></div>
 
         <div class="row portfolio">
-            <div class="col-md-5 align-self-center">
+            <div class="col-md-5 align-self-center col-sm-push-5">
                 <span class="number">02.</span>
                 <br>
                 <p class="subheading">Destinasia</p>
@@ -40,7 +40,7 @@
                 </p>
                 <a class="btn btn-primary btn-pill" target="_blank" href="http://destinasia.jobnjoroge.com">View Live Site</a>
             </div>
-            <div class="col-md-6 offset-md-1">
+            <div class="col-md-6 offset-md-1 col-sm-pull-6">
                 <img ref="port2" class="img-fluid" src="../static/destinasia.png">
             </div>
         </div>

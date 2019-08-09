@@ -104,6 +104,12 @@ export default {
   height: 80vh;
 }
 
+@media (max-width: 480px) {
+  .row {
+    height: 100%;
+  }
+}
+
 .lead {
   font-family: 'Open Sans', sans-serif !important;
   font-weight: 300;

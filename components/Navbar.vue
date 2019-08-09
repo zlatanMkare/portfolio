@@ -119,6 +119,14 @@ export default {
     transform-origin: 0% 50%;
   }
 
+  @media (max-width: 481px) {
+    .link:hover .menu-item-name::before,
+    .link:focus .menu-item-name::before,
+    .link:active .menu-item-name::before {
+      display: none;
+    }
+  }
+
   .no-padd-x {
     padding-left: 0px;
     padding-right: 0px;
