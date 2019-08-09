@@ -4,9 +4,9 @@
 
         <div class="row d-flex align-items-center">
             <div class="col-md-8">
-                <p class="subheading">get in touch</p>
+                <p class="subheading">ready to talk?</p>
                 <h2 class="title">
-                    Wanna make something cool together?
+                    Get in touch
                 </h2>
                 <br>
                 <p>

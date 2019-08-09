@@ -42,6 +42,15 @@ export default {
     .social {
       float: right;
     }
+    @media (max-width: 480px) {
+      .social {
+        float: left;
+        padding-top: 30px;
+      }
+      small {
+        padding-bottom: 10px;
+      }
+    }
     .social:before {
       content: '';
       height: 1px;
