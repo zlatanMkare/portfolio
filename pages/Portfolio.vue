@@ -49,16 +49,16 @@
 
         <div class="row portfolio">
             <div class="col-md-6">
-                <img ref="port3" class="img-fluid" src="../static/learnnow.png">
+                <img ref="port3" class="img-fluid" src="../static/profilkredit.png">
             </div>
             <div class="col-md-5 offset-md-1 align-self-center">
                 <span class="number">03.</span>
                 <br>
-                <p class="subheading">Learn Now</p>
+                <p class="subheading">Profilkredit</p>
                 <p>
-                    Learn now is a website where users can easily learn a new language. The website is coded in Vue js on the frontend, and symfony framework on the backend.
+                    Profilkredit is a Swedish mikro loan company offering consumers loans upto 20k. The site is built with Symfony Framework for the backend and Vue.js for the frontend, utilising Vuetify framework.
                 </p>
-                <a class="btn btn-primary btn-pill" target="_blank" href="https://learnnow.eu">View Live Site</a>
+                <a class="btn btn-primary btn-pill" target="_blank" href="https://profilkredit.se">View Live Site</a>
             </div>
         </div>
 
@@ -84,7 +84,7 @@
         <div class="row portfolio">
             <div class="col-md-12">
                 <h3 class="others">
-                    Other projects I've been involved in include <a target="_blank" href="https://kassekreditten.dk">kassekreditten.dk</a>, <a target="_blank" href="https://folkelaan.dk">folkelaan.dk</a>, <a target="_blank" href="https://kvikto.dk">kvikto.dk</a> and <a target="_blank" href="https://detmodernehjem.dk">detmodernehjem.dk</a> among others.
+                    Other projects I've been involved in include <a target="_blank" href="https://kassekreditten.dk">kassekreditten.dk</a>, <a target="_blank" href="https://folkelaan.dk">folkelaan.dk</a>, <a target="_blank" href="https://kvikto.dk">kvikto.dk</a> among others.
                 </h3>
             </div>
         </div>
@@ -143,9 +143,8 @@ export default {
     }
 
     .text-bg {
-        background: rgb(25, 25, 25);
-        padding: 0px 10px;
-        color: rgb(255, 255, 255);
+        color: #007bff;
+        font-weight: 700;
     }
 
     .others {
@@ -153,8 +152,6 @@ export default {
     }
 
     .others a {
-        color: #eeeeee;
-        background: #000;
-        padding: 5px;
+        color: rgb(0, 123, 255);
     }
 </style>
