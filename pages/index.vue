@@ -9,10 +9,11 @@
           <h1 ref="title" class="title">
             I'm Job Njoroge.
           </h1>
-          <span ref="slogan" class="slogan-text">Front end is my best end</span>
+          <span ref="slogan" class="slogan-text">A FrontEnd Developer</span>
           <p ref="intro" class="intro">
-            I'm a front-end developer currently working at Finans247, a fintech startup company based in Copenhagen, Denmark. At the moment I work
-            a lot with vue.js, Wordpress, CSS animations and Symfony PHP framework. My main task invole designing and building the frontend architecture for our loan system, which is 
+            I'm currently working at <a target="_blank" href="https://lendomatic.com/">Lendomatic</a>, a Fintech company based in Copenhagen, Denmark. 
+            I work with VueJs, Wordpress, SCSS and Twig templating language. 
+            My main task invole designing, building and maintaining our Frontend architecture as per Business requirements, which is 
             currently in use in three countries.
           </p>
           <div ref="btn" class="links">
@@ -66,28 +67,28 @@ export default {
             ease: Sine.easeInOut
         })
 
-        timeline.from(title, .3, {
+        timeline.from(title, .2, {
             y: 10,
             opacity: 0,
             ease: Sine.easeInOut,
             delay: .01
         })
 
-        timeline.from(slogan, .4, {
+        timeline.from(slogan, .3, {
             y: -5,
             opacity: 0,
             ease: Sine.easeInOut,
             delay: .01
         })
 
-        timeline.from(intro, .45, {
+        timeline.from(intro, .35, {
             y: 5,
             opacity: 0,
             ease: Sine.easeInOut,
             delay: .01
         })
 
-        timeline.from(btn, .6, {
+        timeline.from(btn, .4, {
             x: -5,
             opacity: 0,
             ease: Sine.easeInOut,
