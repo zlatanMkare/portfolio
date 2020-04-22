@@ -1,14 +1,19 @@
 <template>
     <div>
         <main class="page cv-page">
-            <section class="cv-block block-intro border-bottom">
+            <section class="cv-block block-intro">
                 <div class="container">
                 <div class="avatar">
                     <img ref="profile" class="img" width="auto" src="../static/profile.jpeg"> 
                 </div>
                 <br>
                 <br>
-                <p ref="intro">Hello! I am <strong>Job Njoroge</strong>. I am a Front End developer. I have passion for building pixel perfect, sensible and easy to use applications.</p>
+                <div class="intro" ref="intro">
+                    <p>
+                        The best preparation for good work tomorrow is to do good work today
+                    </p>
+                    <small>- A favorite quote by Elbert Hubbard</small>
+                </div>
                 </div>
             </section>
             <section class="cv-block info">
@@ -19,7 +24,7 @@
                             <div class="row">
                                 <div class="col-md-6">
                                 <h3>Front End Developer</h3>
-                                <h4 class="organization">Finans 247 ApS</h4>
+                                <h4 class="organization">Lendomatic ApS</h4>
                                 </div>
                                 <div class="col-md-6">
                                 <time class="period float-right">05/2017 - present</time>
@@ -28,7 +33,9 @@
                             <div class="text-muted">
                                 Working as the lead Front End developer to ensure all the company's loan concepts (3) are interactive and usable.
                                 <ul class="pt-2">
-                                    <li>Implementing the Frontend system in Vue.js to adapt nicely to the backend core system built in symfony</li>
+                                    <li>Implementing the Frontend system in Vue.js</li>
+                                    <li>Collaborating with Backend Developers on day to day tasks</li>
+                                    <li>Collaborating with Marketing on day to day tasks</li>
                                     <li>Prototyping, designing and coding new designs</li>
                                     <li>Occassionally updating the company's statistics (Vue and Chart.js)</li>
                                     <li>Maintaining all our websites</li>
@@ -38,7 +45,7 @@
                         <div ref="item1" class="item">
                             <div class="row">
                                 <div class="col-md-6">
-                                <h3>Freelance Web Developer</h3>
+                                <h3>Web Developer</h3>
                                 <h4 class="organization">Freelancer, upwork</h4>
                                 </div>
                                 <div class="col-md-6">
@@ -50,7 +57,7 @@
                                 <ul class="pt-2">
                                     <li>Built websites for clients in Drupal CMS and WordPress.</li>
                                     <li>Prototyping, designing and coding new designs</li>
-                                    <li>Occassionally made custom website templates, and UI kits</li>
+                                    <li>Building custom website templates, and UI kits</li>
                                 </ul>
                             </div>
                         </div>
@@ -67,8 +74,8 @@
                             <div class="text-muted">
                                 Worked as an intern Web Developer at Startup Kyiv, a startup based in Copenhagen that helps startups in Kyiv, Ukraine, easily network. My tasks included
                                 <ul class="pt-2">
-                                    <li>Implementing the system in in Drupal</li>
-                                    <li>Implementing the startup maps using Google Maps API</li>
+                                    <li>Building the webiste using Drupal CMS</li>
+                                    <li>Implementing Google Maps API to the website used for mapping Startups in Kyv, Ukraine</li>
                                     <li>Prototyping, designing and coding new features</li>
                                 </ul>
                             </div>
@@ -100,26 +107,32 @@
                         <div class="col-md-6">
                             <div class="skills info-card">
                             <h2>Skills</h2>
-                            <h3>Vue js, ES6 & JQuery</h3>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="70"
-                                aria-valuemin="0" aria-valuemax="80" style="width:80%">
-                                </div>
-                            </div>
                             <h3>HTML5, CSS/CSS3, LESS</h3>
                             <div class="progress">
                                 <div class="progress-bar" role="progressbar" aria-valuenow="80"
                                 aria-valuemin="0" aria-valuemax="80" style="width:80%">
                                 </div>
                             </div>
-                            <h3>CMS (Wordpress)</h3>
+                            <h3>Vue js, ES6 & JQuery</h3>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="70"
+                                aria-valuemin="0" aria-valuemax="80" style="width:80%">
+                                </div>
+                            </div>
+                            <h3>CMS (Wordpress, Drupal)</h3>
                             <div class="progress">
                                 <div class="progress-bar" role="progressbar" aria-valuenow="75"
                                 aria-valuemin="0" aria-valuemax="70" style="width:70%">
                                 </div>
                             </div>
-                            <h3>Other notable skills</h3>
-                            <p>Drupal, twig, Sass, Vanilla Js </p>
+                            <h3>Search Engine Optimisation</h3>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="75"
+                                aria-valuemin="0" aria-valuemax="70" style="width:70%">
+                                </div>
+                            </div>
+                            <!-- <h3>Other notable skills</h3>
+                            <p>Drupal, twig, Sass, Vanilla Js </p> -->
                             </div>
                         </div>
                         <div class="col-md-6">
@@ -166,8 +179,14 @@
                     </div>
                     <div class="hobbies group" id="hobbies">
                         <h2 style="margin-bottom: 20px;" class="text-center">Hobbies</h2>
-                        <p class="text-center text-muted">
-                            Long walks, shooting pool, football, Netflix and chill, learning something new and the list goes on and on :D
+                        <p class="text-center text-muted emojis">
+                           <span>🍽</span>
+                           <span>🛩 </span>
+                           <span>⚽</span> 
+                           <span>🏖</span> 
+                           <span>🎮</span> 
+                           <span>🎼</span>
+                           <span>📖</span>
                         </p>
                     </div>
                 </div>
@@ -242,11 +261,13 @@
     max-width: 800px;
     margin: auto;
 }
-
+.cv-block .intro {
+    margin-bottom: 30px;
+}
 .cv-block.block-intro p{
     font-size: 1.5em;
     font-weight: 300;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
 }
 
 .cv-block.block-intro .btn {
@@ -255,7 +276,6 @@
  }
 
 .cv-block.block-intro .avatar{
-    width: 150px;
     height: 150px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -370,5 +390,10 @@
 
 pt-2 {
     padding-top: 10px;
+}
+
+.emojis span {
+    font-size: 2.5em;
+    padding: 0 20px;
 }
 </style>

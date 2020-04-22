@@ -6,7 +6,7 @@
             <div class="col-md-10">
                 <p ref="subheading" class="subheading">some projects I've worked on</p>
                 <h2 ref="title" class="title">
-                    As a front-end developer, I try to build <span class="text-bg">progressive</span> and modern <span class="text-bg">websites</span> that users will love.
+                    As a front-end developer, I aim to build <span class="text-bg">progressive</span> and modern <span class="text-bg">websites</span>.
                 </h2>
             </div>
         </div>
@@ -31,7 +31,7 @@
         <div class="bigpadding"></div>
 
         <div class="row portfolio">
-            <div class="col-md-5 align-self-center col-sm-push-5">
+            <div class="col-md-5 align-self-center">
                 <span class="number">02.</span>
                 <br>
                 <p class="subheading">Destinasia</p>
@@ -40,7 +40,7 @@
                 </p>
                 <a class="btn btn-primary btn-pill" target="_blank" href="http://destinasia.jobnjoroge.com">View Live Site</a>
             </div>
-            <div class="col-md-6 offset-md-1 col-sm-pull-6">
+            <div class="col-md-6 offset-md-1 order-first order-md-2">
                 <img ref="port2" class="img-fluid" src="../static/destinasia.png">
             </div>
         </div>
@@ -74,7 +74,7 @@
                 </p>
                 <a class="btn btn-primary btn-pill" target="_blank" href="http://kozykitchen.jobnjoroge.com">View Live Site</a>
             </div>
-            <div class="col-md-6 offset-md-1">
+            <div class="col-md-6 offset-md-1 order-first order-md-2">
                 <img ref="port4" class="img-fluid" src="../static/kozykitchen.png">
             </div>
         </div>
@@ -84,7 +84,7 @@
         <div class="row portfolio">
             <div class="col-md-12">
                 <h3 class="others">
-                    Other projects I've been involved in include <a target="_blank" href="https://kassekreditten.dk">kassekreditten.dk</a>, <a target="_blank" href="https://folkelaan.dk">folkelaan.dk</a>, <a target="_blank" href="https://kvikto.dk">kvikto.dk</a> among others.
+                    Other projects I've been involved in include <a target="_blank" href="https://folkelaanet.dk">folkelaanet.dk</a>, <a target="_blank" href="https://kvikto.dk">kvikto.dk</a> among others.
                 </h3>
             </div>
         </div>

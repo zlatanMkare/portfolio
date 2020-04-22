@@ -2,29 +2,31 @@
   <div>
     <div class="container no-padd-x">
       <nav class="navbar navbar-expand-lg navbar-light">
-        <a ref="logo" class="navbar-brand" href="#">Njoroge.</a>
+        <nuxt-link to="/">
+          <span ref="logo" class="navbar-brand">Njoroge.</span>
+        </nuxt-link>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
-            <li ref="link1" class="nav-item">
+            <li ref="link1" class="nav-item" data-toggle="collapse" data-target=".navbar-collapse">
               <nuxt-link class="link" to="/"> 
                 <span class="menu-item-name">Home</span>
               </nuxt-link>
             </li>
-            <li ref="link2" class="nav-item">
+            <li ref="link2" class="nav-item" data-toggle="collapse" data-target=".navbar-collapse">
               <nuxt-link class="link" to="/portfolio">
                 <span class="menu-item-name">Portfolio</span>
               </nuxt-link>
             </li>
-            <li ref="link3" class="nav-item">
+            <li ref="link3" class="nav-item" data-toggle="collapse" data-target=".navbar-collapse">
               <nuxt-link class="link" to="/cv">
                 <span class="menu-item-name">Resume</span>
               </nuxt-link>
             </li>
-            <li ref="link4" class="nav-item">
+            <li ref="link4" class="nav-item" data-toggle="collapse" data-target=".navbar-collapse">
               <nuxt-link class="link" to="/contact">
                 <span class="menu-item-name">Contact</span>
               </nuxt-link>
@@ -84,6 +86,7 @@ export default {
   }
   .nav-item {
     position: relative;
+    padding: 10px 0;
   }
   .nav-item .link {
     font-size: 12px;
@@ -92,6 +95,12 @@ export default {
     color: #000;
     letter-spacing: 2px;
     font-weight: 500;
+  }
+
+  @media(max-width: 992px) {
+    .nav-item .link {
+      padding: 0;
+    }
   }
 
   .link .menu-item-name:before {
