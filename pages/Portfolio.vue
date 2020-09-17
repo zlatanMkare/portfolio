@@ -14,17 +14,34 @@
         <div class="bigpadding"></div>
 
         <div class="row portfolio">
-            <div class="col-md-6">
-                <img ref="port" class="img-fluid" src="../static/minifinans.png">
-            </div>
-            <div class="col-md-5 offset-md-1 align-self-center">
+            <div class="col-md-5 align-self-center">
                 <span class="number">01.</span>
                 <br>
-                <p class="subheading">Minifinans</p>
+                <p class="subheading">Nuxt Js Template</p>
                 <p>
-                    Minifinans is one of the flagship websites for Finans247. I worked on everything on the website, from the homepage design to the loan application process.
+                    Maasai is a free Nuxt js template that I built as a way to say thank you to an awesome open source project. The template features multiple blocks which I plan to increase in the near future.
                 </p>
-                <a class="btn btn-primary btn-pill" target="_blank" href="https://minifinans.dk">View Live Site</a>
+                <a class="btn btn-primary btn-pill" target="_blank" href="http://maasai.netlify.app/">View Live Site</a>
+            </div>
+            <div class="col-md-6 offset-md-1 order-first order-md-2">
+                <img ref="port2" class="img-fluid" src="../static/maasai.png">
+            </div>
+        </div>
+
+        <div class="bigpadding"></div>
+
+        <div class="row portfolio">
+            <div class="col-md-6">
+                <img ref="port" class="img-fluid" src="../static/folkelaanet.png">
+            </div>
+            <div class="col-md-5 offset-md-1 align-self-center">
+                <span class="number">02.</span>
+                <br>
+                <p class="subheading">Folkelaanet</p>
+                <p>
+                    Folkelaanet is one of the flagship websites for Lendomatic. I worked on everything on the website, from the homepage design to the loan application process.
+                </p>
+                <a class="btn btn-primary btn-pill" target="_blank" href="http://folkelaanet.dk/">View Live Site</a>
             </div> 
         </div>
 
@@ -32,7 +49,7 @@
 
         <div class="row portfolio">
             <div class="col-md-5 align-self-center">
-                <span class="number">02.</span>
+                <span class="number">03.</span>
                 <br>
                 <p class="subheading">Destinasia</p>
                 <p>
@@ -41,7 +58,7 @@
                 <a class="btn btn-primary btn-pill" target="_blank" href="http://destinasia.jobnjoroge.com">View Live Site</a>
             </div>
             <div class="col-md-6 offset-md-1 order-first order-md-2">
-                <img ref="port2" class="img-fluid" src="../static/destinasia.png">
+                <img ref="port2" class="img-fluid" src="../static/destinasia_new.png">
             </div>
         </div>
 
@@ -49,10 +66,10 @@
 
         <div class="row portfolio">
             <div class="col-md-6">
-                <img ref="port3" class="img-fluid" src="../static/profilkredit.png">
+                <img ref="port3" class="img-fluid" src="../static/profilkredit_new.png">
             </div>
             <div class="col-md-5 offset-md-1 align-self-center">
-                <span class="number">03.</span>
+                <span class="number">04.</span>
                 <br>
                 <p class="subheading">Profilkredit</p>
                 <p>
@@ -64,7 +81,7 @@
 
         <div class="bigpadding"></div>
 
-        <div class="row portfolio">
+        <!-- <div class="row portfolio">
             <div class="col-md-5 align-self-center">
                 <span class="number">04.</span>
                 <br>
@@ -77,19 +94,19 @@
             <div class="col-md-6 offset-md-1 order-first order-md-2">
                 <img ref="port4" class="img-fluid" src="../static/kozykitchen.png">
             </div>
-        </div>
+        </div> 
 
-        <div class="bigpadding"></div>
+        <div class="bigpadding"></div> -->
 
-        <div class="row portfolio">
+        <!-- <div class="row portfolio">
             <div class="col-md-12">
                 <h3 class="others">
                     Other projects I've been involved in include <a target="_blank" href="https://folkelaanet.dk">folkelaanet.dk</a>, <a target="_blank" href="https://kvikto.dk">kvikto.dk</a> among others.
                 </h3>
             </div>
-        </div>
+        </div> -->
 
-        <div class="bigpadding"></div>
+        <div class="smallpadding"></div>
     </section>
 </template>
 
@@ -130,6 +147,11 @@ export default {
     #portfolio {
         position: relative;
         overflow: hidden;
+    }
+
+    #portfolio img {
+        border: 10px solid rgb(238 238 238);
+        border-radius: 10px;
     }
     
     .number {
