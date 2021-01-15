@@ -14,35 +14,33 @@
         <div class="bigpadding"></div>
 
         <div class="row portfolio">
-            <div class="col-md-5 align-self-center">
-                <span class="number">01.</span>
-                <br>
-                <p class="subheading">Nuxt Js Template</p>
-                <p>
-                    Maasai is a free Nuxt js template that I built as a way to say thank you to an awesome open source project. The template features multiple blocks which I plan to increase in the near future.
-                </p>
-                <a class="btn btn-primary btn-pill" target="_blank" href="http://maasai.netlify.app/">View Live Site</a>
-            </div>
-            <div class="col-md-6 offset-md-1 order-first order-md-2">
-                <img ref="port2" class="img-fluid" src="../static/maasai.png">
-            </div>
+               <div class="col-md-5 align-self-center">
+                    <span class="number">01.</span>
+                    <p class="subheading mb-1">Currency Converter App</p>
+                    <p class="mb-2">
+                         This is an app I created as a side project. The application is built with <strong>Vue</strong> and allow you to convert both Fiat and Crypto currencies. It also features a news section with the most recent crypto news.
+                    </p>
+                    <a class="btn btn-primary btn-pill" target="_blank" href="https://v-currency-converter.netlify.app/">View Live Site</a>
+               </div> 
+               <div class="col-md-6 offset-md-1 order-first order-md-2">
+                    <img ref="port" class="img-fluid" src="../static/currency.png">
+               </div>
         </div>
 
         <div class="bigpadding"></div>
 
         <div class="row portfolio">
-            <div class="col-md-6">
-                <img ref="port" class="img-fluid" src="../static/folkelaanet.png">
-            </div>
-            <div class="col-md-5 offset-md-1 align-self-center">
-                <span class="number">02.</span>
-                <br>
-                <p class="subheading">Folkelaanet</p>
-                <p>
-                    Folkelaanet is one of the flagship websites for Lendomatic. I worked on everything on the website, from the homepage design to the loan application process.
-                </p>
-                <a class="btn btn-primary btn-pill" target="_blank" href="http://folkelaanet.dk/">View Live Site</a>
-            </div> 
+               <div class="col-md-6">
+                    <img ref="port2" class="img-fluid" src="../static/maasai.png">
+               </div>
+               <div class="col-md-5 offset-md-1 align-self-center">
+                    <span class="number">02.</span>
+                    <p class="subheading mb-1">Nuxt Js Template</p>
+                    <p class="mb-2">
+                         Maasai is a free Nuxt js template that I built as a way to say thank you to an awesome open source project. The template features multiple blocks which I plan to increase in the near future.
+                    </p>
+                    <a class="btn btn-primary btn-pill" target="_blank" href="http://maasai.netlify.app/">View Live Site</a>
+               </div>
         </div>
 
         <div class="bigpadding"></div>
@@ -50,9 +48,8 @@
         <div class="row portfolio">
             <div class="col-md-5 align-self-center">
                 <span class="number">03.</span>
-                <br>
-                <p class="subheading">Destinasia</p>
-                <p>
+                <p class="subheading mb-2">Destinasia</p>
+                <p class="mb-1">
                     Destinasia is a pet project of mine that I worked on. The website is basically a tour booking system. Currently I havn't had time to finish building it to a fully working website.
                 </p>
                 <a class="btn btn-primary btn-pill" target="_blank" href="http://destinasia.jobnjoroge.com">View Live Site</a>
@@ -66,14 +63,13 @@
 
         <div class="row portfolio">
             <div class="col-md-6">
-                <img ref="port3" class="img-fluid" src="../static/profilkredit_new.png">
+                <img ref="port3" class="img-fluid" src="../static/pamoja.png">
             </div>
             <div class="col-md-5 offset-md-1 align-self-center">
                 <span class="number">04.</span>
-                <br>
-                <p class="subheading">Profilkredit</p>
-                <p>
-                    Profilkredit is a Swedish mikro loan company offering consumers loans upto 20k. The site is built with Symfony Framework for the backend and Vue.js for the frontend, utilising Vuetify framework.
+                <p class="subheading mb-1">Pamoja Kenya Association Denmark</p>
+                <p class="mb-2">
+                    Pamoja Kenya Association Denmark (PKAD) is a non governmental organisation based in Denmark with an aim of uniting Kenyans living in Denmark. The website is developed in WordPress.
                 </p>
                 <a class="btn btn-primary btn-pill" target="_blank" href="https://profilkredit.se">View Live Site</a>
             </div>
