@@ -30,7 +30,7 @@
                                 <time class="period float-right">05/2017 - present</time>
                                 </div>
                             </div>
-                            <div class="text-muted">
+                            <div>
                                 Working as the lead Front End developer to ensure all the company's loan concepts (3) are interactive and usable.
                                 <ul class="pt-2">
                                     <li>Implementing the Frontend system in Vue.js</li>
@@ -52,7 +52,7 @@
                                 <time class="period float-right">04/2015 - 12/2015</time>
                                 </div>
                             </div>
-                            <div class="text-muted">
+                            <div>
                                 After my studies, I began working as a freelance web developer. I developed websites for different clients.
                                 <ul class="pt-2">
                                     <li>Built websites for clients in Drupal CMS and WordPress.</li>
@@ -71,7 +71,7 @@
                                 <time class="period float-right">03/2014 - 06/2014</time>
                                 </div>
                             </div>
-                            <div class="text-muted">
+                            <div>
                                 Worked as an intern Web Developer at Startup Kyiv, a startup based in Copenhagen that helps startups in Kyiv, Ukraine, easily network. My tasks included
                                 <ul class="pt-2">
                                     <li>Building the webiste using Drupal CMS</li>
@@ -107,7 +107,7 @@
                         <div class="col-md-6">
                             <div class="skills info-card">
                             <h2>Skills</h2>
-                            <h3>HTML5, CSS/CSS3, LESS</h3>
+                            <h3>HTML5, LESS/SASS</h3>
                             <div class="progress">
                                 <div class="progress-bar" role="progressbar" aria-valuenow="80"
                                 aria-valuemin="0" aria-valuemax="80" style="width:80%">
@@ -119,13 +119,13 @@
                                 aria-valuemin="0" aria-valuemax="80" style="width:80%">
                                 </div>
                             </div>
-                            <h3>CMS (Wordpress, Drupal)</h3>
+                            <h3>CMS/HEADLESS CMS (Wordpress, Drupal)</h3>
                             <div class="progress">
                                 <div class="progress-bar" role="progressbar" aria-valuenow="75"
                                 aria-valuemin="0" aria-valuemax="70" style="width:70%">
                                 </div>
                             </div>
-                            <h3>Search Engine Optimisation</h3>
+                            <h3>VERSION CONTROL (git)</h3>
                             <div class="progress">
                                 <div class="progress-bar" role="progressbar" aria-valuenow="75"
                                 aria-valuemin="0" aria-valuemax="70" style="width:70%">

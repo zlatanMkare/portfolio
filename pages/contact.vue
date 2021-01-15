@@ -4,7 +4,7 @@
 
         <div class="row d-flex align-items-center">
             <div class="col-md-8">
-                <p class="subheading">ready to talk?</p>
+                <p class="subheading">want to reach out?</p>
                 <h2 class="title">
                     Get in touch
                 </h2>
