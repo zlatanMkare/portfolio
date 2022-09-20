@@ -24,14 +24,34 @@
                             <div class="row">
                                 <div class="col-md-6">
                                 <h3>Front End Developer</h3>
-                                <h4 class="organization">Lendomatic ApS</h4>
+                                <h4 class="organization">Bestseller</h4>
                                 </div>
                                 <div class="col-md-6">
-                                <time class="period float-right">05/2017 - present</time>
+                                <time class="period float-right">04/2021 - present</time>
                                 </div>
                             </div>
                             <div>
-                                Working as the lead Front End developer to ensure all the company's loan concepts (3) are interactive and usable.
+                                Building a new frontend for more than 5 Bestseller brands including <strong>ONLY</strong>, <strong>JACK&JONES</strong> and <strong>VEROMODA</strong>
+                                <ul class="pt-2">
+                                    <li>Building the Frontend with NUXT 2 using Composition API</li>
+                                    <li>Intergrating and communicating with our API from Umbraco</li>
+                                    <li>Building components based on business needs</li>
+                                    <li>Collaborating with content creators to build support tools</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div ref="item" class="item">
+                            <div class="row">
+                                <div class="col-md-6">
+                                <h3>Front End Developer</h3>
+                                <h4 class="organization">Lendomatic ApS</h4>
+                                </div>
+                                <div class="col-md-6">
+                                <time class="period float-right">05/2017 - 03/2021</time>
+                                </div>
+                            </div>
+                            <div>
+                                Working as a Front End developer to ensure all the company's loan concepts (3) are interactive and usable.
                                 <ul class="pt-2">
                                     <li>Implementing the Frontend system in Vue.js</li>
                                     <li>Collaborating with Backend Developers on day to day tasks</li>
