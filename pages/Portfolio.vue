@@ -16,14 +16,14 @@
         <div class="row portfolio">
                <div class="col-md-5 align-self-center">
                     <span class="number">01.</span>
-                    <p class="subheading mb-1">Currency Converter App</p>
+                    <p class="subheading mb-1">ONLY - Ecommerce store</p>
                     <p class="mb-2">
-                         This is an app I created as a side project. The application is built with <strong>Vue</strong> and allow you to convert both Fiat and Crypto currencies. It also features a news section with the most recent crypto news.
+                        ONLY is a brand house of Bestseller - Denmark's largest fashion company. I was resonsible of developing the Frontend using NUXT JS - composition API and Typescript. The site is also a Progressive Web APP (PWA).
                     </p>
-                    <a class="btn btn-primary btn-pill" target="_blank" href="https://v-currency-converter.netlify.app/">View Live Site</a>
+                    <a class="btn btn-primary btn-pill" target="_blank" href="https://only.com">View Live Site</a>
                </div> 
                <div class="col-md-6 offset-md-1 order-first order-md-2">
-                    <img ref="port" class="img-fluid" src="../static/currency.png">
+                    <img ref="port" class="img-fluid" src="../static/only.png">
                </div>
         </div>
 
@@ -46,6 +46,22 @@
         <div class="bigpadding"></div>
 
         <div class="row portfolio">
+               <div class="col-md-5 align-self-center">
+                    <span class="number">03.</span>
+                    <p class="subheading mb-1">Currency Converter App</p>
+                    <p class="mb-2">
+                         This is an app I created as a side project. The application is built with <strong>Vue</strong> and allow you to convert both Fiat and Crypto currencies. It also features a news section with the most recent crypto news.
+                    </p>
+                    <a class="btn btn-primary btn-pill" target="_blank" href="https://v-currency-converter.netlify.app/">View Live Site</a>
+               </div> 
+               <div class="col-md-6 offset-md-1 order-first order-md-2">
+                    <img ref="port" class="img-fluid" src="../static/currency.png">
+               </div>
+        </div>    
+
+        <div class="bigpadding"></div>
+
+        <!-- <div class="row portfolio">
             <div class="col-md-5 align-self-center">
                 <span class="number">03.</span>
                 <p class="subheading mb-2">Destinasia</p>
@@ -59,17 +75,17 @@
             </div>
         </div>
 
-        <div class="bigpadding"></div>
+        <div class="bigpadding"></div> -->
 
         <div class="row portfolio">
             <div class="col-md-6">
-                <img ref="port3" class="img-fluid" src="../static/pamoja.png">
+                <img ref="port3" class="img-fluid" src="../static/profilkredit_new.png">
             </div>
             <div class="col-md-5 offset-md-1 align-self-center">
                 <span class="number">04.</span>
-                <p class="subheading mb-1">Pamoja Kenya Association Denmark</p>
+                <p class="subheading mb-1">Profilkredit - Online banking</p>
                 <p class="mb-2">
-                    Pamoja Kenya Association Denmark (PKAD) is a non governmental organisation based in Denmark with an aim of uniting Kenyans living in Denmark. The website is developed in WordPress.
+                    Profilkredit is a Swedish online bank. I was responsible of building the front-facing website and the loan application flow which is built on Symfony 3, Vue JS 2 and Twig templating language.
                 </p>
                 <a class="btn btn-primary btn-pill" target="_blank" href="https://profilkredit.se">View Live Site</a>
             </div>
@@ -88,7 +104,7 @@
                 <a class="btn btn-primary btn-pill" target="_blank" href="http://kozykitchen.jobnjoroge.com">View Live Site</a>
             </div>
             <div class="col-md-6 offset-md-1 order-first order-md-2">
-                <img ref="port4" class="img-fluid" src="../static/kozykitchen.png">
+                <img ref="port4" class="img-fluid" src="../static/minifinans.png">
             </div>
         </div> 
 

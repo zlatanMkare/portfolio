@@ -24,12 +24,11 @@
           <h1 ref="title" class="title">
             I'm Job Njoroge.
           </h1>
-          <span ref="slogan" class="slogan-text">A FrontEnd Developer</span>
+          <span ref="slogan" class="slogan-text">An Experienced FrontEnd Developer</span>
           <p ref="intro" class="intro">
-            I'm currently working at <a target="_blank" href="https://lendomatic.com/">Lendomatic</a>, a Fintech company based in Copenhagen, Denmark. 
-            I work with VueJs, Wordpress, SCSS and Twig templating language. 
-            My main task invole designing, building and maintaining our Frontend architecture as per Business requirements, which is 
-            currently in use in three countries.
+            I'm currently working at <a target="_blank" href="https://about.bestseller.com/">BESTSELLER</a>, Denmarks' largest fashion company based in Brande, Denmark. 
+            I primarily work with NuxtJS, Vue Js, Composition API, Typescript and Scss.
+            My main task involve developing Bestsellers' brand houses websites and apps. Some of the brands I work with include JACK&JONES, ONLY, VEROMODA and many more.
           </p>
           <div ref="btn" class="links">
             <nuxt-link
