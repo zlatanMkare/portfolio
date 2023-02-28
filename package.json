@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "gsap": "^2.0.2",
-    "nuxt": "^1.0.0"
+    "nuxt": "^3.2.2"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.1",
