@@ -26,14 +26,14 @@
           </h1>
           <span ref="slogan" class="slogan-text">An Experienced FrontEnd Developer</span>
           <p ref="intro" class="intro">
-            I'm currently working at <a target="_blank" href="https://about.bestseller.com/">BESTSELLER</a>, Denmarks' largest fashion company based in Brande, Denmark. 
-            I primarily work with NuxtJS, Vue Js, Composition API, Typescript and Scss.
-            My main task involve developing Bestsellers' brand houses websites and apps. Some of the brands I work with include JACK&JONES, ONLY, VEROMODA and many more.
+            I'm currently working at <a class="link" target="_blank" href="https://about.bestseller.com/">BESTSELLER</a>, Denmarks' largest fashion company based in Brande, Denmark as a Frontend Team lead.
+            I primarily work with <strong>Vue.js 3</strong>, Composition API, Typescript.
+            My main task involve developing Bestsellers' brand houses websites and apps. Some of the brands I work with include <a class="link" target="_blank" href="https://www.jackjones.com/">JACK&JONES</a>, <a class="link" target="_blank" href="https://www.only.com/">ONLY BRAND HOUSE</a> and <a class="link" target="_blank" href="https://www.veromoda.com/">VEROMODA</a>.
           </p>
           <div ref="btn" class="links">
             <nuxt-link
               to="/Cv"
-              class="btn btn-primary btn-pill">Check out my resume</nuxt-link>
+              class="btn btn-dark btn-pill">Check out my resume</nuxt-link>
           </div>
         </div>
     </div>
@@ -43,7 +43,7 @@
 <script>
 import AppLogo from '~/components/AppLogo.vue'
 import Navbar from '~/components/Navbar.vue'
-import { TimelineLite, Back, Elastic, Expo } from 'gsap'
+import { gsap } from 'gsap'
 
 export default {
     components: {
@@ -53,39 +53,39 @@ export default {
 
     mounted() {
         const { hello, title, slogan, intro, btn } = this.$refs
-        const timeline = new TimelineLite()
+        const timeline = gsap.timeline()
 
         timeline.from(hello, .15, {
             y: -10,
             opacity: 0,
-            ease: Sine.easeInOut
+            ease: "sine.easeInOut"
         })
 
         timeline.from(title, .2, {
             y: 10,
             opacity: 0,
-            ease: Sine.easeInOut,
+            ease: "sine.easeInOut",
             delay: .01
         })
 
         timeline.from(slogan, .3, {
             y: -5,
             opacity: 0,
-            ease: Sine.easeInOut,
+            ease: "sine.easeInOut",
             delay: .01
         })
 
         timeline.from(intro, .35, {
             y: 5,
             opacity: 0,
-            ease: Sine.easeInOut,
+            ease: "sine.easeInOut",
             delay: .01
         })
 
         timeline.from(btn, .4, {
             x: -5,
             opacity: 0,
-            ease: Sine.easeInOut,
+            ease: "sine.easeInOut",
             delay: .01
         })
     }
@@ -95,6 +95,20 @@ export default {
 </script>
 
 <style scoped>
+.link {
+    text-decoration: none;
+    border-bottom: 2px dashed #a8a8a8;
+    padding-bottom: 3px;
+    font-weight: 500;
+    color: #a8a8a8;
+
+    &:hover {
+        color: #000000;
+        font-size: inherit;
+        border-color: #000000;
+    }
+}
+
 .row {
   height: 80vh;
 }
@@ -164,7 +178,5 @@ export default {
     top: 0;
     left: 0;
 }
-
-
 </style>
 

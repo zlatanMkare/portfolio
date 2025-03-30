@@ -11,7 +11,7 @@
     <div class="container-fluid">
       <div class="content">
         <div class="container">
-          <nuxt/>
+            <slot />
         </div>
       </div>
     </div>

@@ -39,41 +39,41 @@
 </template>
 
 <script>
-import { TimelineLite, Back, Elastic, Expo } from 'gsap'
+import { gsap } from 'gsap'
 
 export default {
     mounted() {
         const { logo, link1, link2, link3, link4 } = this.$refs
-        const timeline = new TimelineLite()
+        const timeline = gsap.timeline()
 
           timeline.from(logo, 1, {
             y: -10,
             opacity: 0,
-            ease: Sine.easeInOut
+            ease: "sine.easeInOut"
           })
 
           timeline.from(link1, .15, {
             y: -10,
             opacity: 0,
-            ease: Sine.easeInOut
+            ease: "sine.easeInOut"
           })
 
           timeline.from(link2, .15, {
             y: -10,
             opacity: 0,
-            ease: Sine.easeInOut
+            ease: "sine.easeInOut"
           })
 
           timeline.from(link3, .15, {
             y: -10,
             opacity: 0,
-            ease: Sine.easeInOut
+            ease: "sine.easeInOut"
           })
 
           timeline.from(link4, .15, {
             y: -10,
             opacity: 0,
-            ease: Sine.easeInOut
+            ease: "sine.easeInOut"
           })
     }
 }
@@ -95,6 +95,11 @@ export default {
     color: #000;
     letter-spacing: 2px;
     font-weight: 500;
+
+    &:hover {
+        color: #000000;
+        font-size: 12px;
+    }
   }
 
   @media(max-width: 992px) {
@@ -106,7 +111,7 @@ export default {
   .link .menu-item-name:before {
     content: '';
     position: absolute;
-    bottom: -5px;
+    bottom: -3px;
     margin-left: auto;
     margin-right: auto;
     left: 0;

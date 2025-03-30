@@ -4,7 +4,7 @@
             <section class="cv-block block-intro">
                 <div class="container">
                 <div class="avatar">
-                    <img ref="profile" class="img" width="auto" src="../static/profile.jpeg"> 
+                    <img ref="profile" class="img" width="auto" src="../static/profile-pic.jpg"> 
                 </div>
                 <br>
                 <br>
@@ -20,14 +20,34 @@
                 <div class="container">
                     <div class="work-experience group" id="work-experience">
                         <h2 ref="title" class="text-center">Work Experience</h2>
-                        <div ref="item" class="item">
+                        <div ref="item1" class="item">
+                            <div class="row">
+                                <div class="col-md-6">
+                                <h3>Front End Team Lead</h3>
+                                <h4 class="organization">Bestseller</h4>
+                                </div>
+                                <div class="col-md-6">
+                                <time class="period float-right">02/2023 - present</time>
+                                </div>
+                            </div>
+                            <div>
+                                Leading a team of 8 Frontend developers to achieving the company's vision and mission
+                                <ul class="pt-2">
+                                    <li>Led the migration of the frontend architecture from Vue 2 to Vue 3, implementing a fully server-side rendered solution.</li>
+                                    <li>Contributed to the successful launch of Jack and Jones across more than 50 markets.</li>
+                                    <li>Directed the transition to a customized Payload CMS solution, enhancing content management capabilities.</li>
+                                    <li>Oversaw frontend development processes, ensuring high performance and scalability during architectural changes.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div ref="item2" class="item">
                             <div class="row">
                                 <div class="col-md-6">
                                 <h3>Front End Developer</h3>
                                 <h4 class="organization">Bestseller</h4>
                                 </div>
                                 <div class="col-md-6">
-                                <time class="period float-right">04/2021 - present</time>
+                                <time class="period float-right">04/2021 - 02/2023</time>
                                 </div>
                             </div>
                             <div>
@@ -40,7 +60,7 @@
                                 </ul>
                             </div>
                         </div>
-                        <div ref="item" class="item">
+                        <div ref="item3" class="item">
                             <div class="row">
                                 <div class="col-md-6">
                                 <h3>Front End Developer</h3>
@@ -62,7 +82,7 @@
                                 </ul>
                             </div>
                         </div>
-                        <div ref="item1" class="item">
+                        <div ref="item4" class="item">
                             <div class="row">
                                 <div class="col-md-6">
                                 <h3>Web Developer</h3>
@@ -81,7 +101,7 @@
                                 </ul>
                             </div>
                         </div>
-                        <div ref="item2" class="item">
+                        <div ref="item5" class="item">
                             <div class="row">
                                 <div class="col-md-6">
                                 <h3>Web Developer</h3>
@@ -127,13 +147,13 @@
                         <div class="col-md-6">
                             <div class="skills info-card">
                             <h2>Skills</h2>
-                            <h3>HTML5, LESS/SASS</h3>
+                            <h3>Vue.js eco-system</h3>
                             <div class="progress">
                                 <div class="progress-bar" role="progressbar" aria-valuenow="80"
-                                aria-valuemin="0" aria-valuemax="80" style="width:80%">
+                                aria-valuemin="0" aria-valuemax="90" style="width:80%">
                                 </div>
                             </div>
-                            <h3>Vue js, ES6 & JQuery</h3>
+                            <h3>Typescript, ES6</h3>
                             <div class="progress">
                                 <div class="progress-bar" role="progressbar" aria-valuenow="70"
                                 aria-valuemin="0" aria-valuemax="80" style="width:80%">
@@ -145,14 +165,12 @@
                                 aria-valuemin="0" aria-valuemax="70" style="width:70%">
                                 </div>
                             </div>
-                            <h3>VERSION CONTROL (git)</h3>
+                            <h3>VERSION CONTROL (git), CI/CD</h3>
                             <div class="progress">
                                 <div class="progress-bar" role="progressbar" aria-valuenow="75"
                                 aria-valuemin="0" aria-valuemax="70" style="width:70%">
                                 </div>
                             </div>
-                            <!-- <h3>Other notable skills</h3>
-                            <p>Drupal, twig, Sass, Vanilla Js </p> -->
                             </div>
                         </div>
                         <div class="col-md-6">
@@ -216,47 +234,59 @@
 </template>
 
 <script>
-    import { TimelineLite, Back, Elastic, Expo } from 'gsap'
+    import { gsap } from 'gsap'
 
     export default {
         mounted() {
-            const { profile, intro, title, item, item1, item2 } = this.$refs
-            const timeline = new TimelineLite()
+            const { profile, intro, title, item1, item2, item3, item4, item5 } = this.$refs
+            const timeline = gsap.timeline()
 
             timeline.from(profile, .25, {
                 y: 20,
                 opacity: 0,
-                ease: Sine.easeInOut, // Specify an ease
+                ease: "sine.inOut",
             })
 
             timeline.from(intro, .25, {
                 y: 10,
                 opacity: 0,
-                ease: Sine.easeInOut, // Specify an ease
+                ease: "sine.inOut",
             })
 
             timeline.from(title, .25, {
                 y: 10,
                 opacity: 0,
-                ease: Sine.easeInOut, // Specify an ease
-            })
-
-            timeline.from(item, .65, {
-                x: 10,
-                opacity: 0,
-                ease: Sine.easeInOut, // Specify an ease
+                ease: "sine.inOut",
             })
 
             timeline.from(item1, .65, {
                 x: 10,
                 opacity: 0,
-                ease: Sine.easeInOut, // Specify an ease
+                ease: "sine.inOut",
             })
 
             timeline.from(item2, .65, {
                 x: 10,
                 opacity: 0,
-                ease: Sine.easeInOut, // Specify an ease
+                ease: "sine.inOut",
+            })
+
+            timeline.from(item3, .65, {
+                x: 10,
+                opacity: 0,
+                ease: "sine.inOut",
+            })
+
+            timeline.from(item4, .65, {
+                x: 10,
+                opacity: 0,
+                ease: "sine.inOut",
+            })
+
+            timeline.from(item5, .65, {
+                x: 10,
+                opacity: 0,
+                ease: "sine.inOut",
             })
         }
     }
@@ -264,7 +294,8 @@
 
 <style>
 .avatar img {
-    border-radius: 50%;
+    width: 250px;
+    clip-path: circle();
     border: 5px solid #eee;
 }
 .cv-block{
@@ -338,7 +369,7 @@
 
 .cv-block.info .group .organization{
     font-size: 0.85em;
-    background-color: #0ea0ff;
+    background-color: #5a6169;
     display: inline-block;
     color: #fff;
     padding: 2px 20px;

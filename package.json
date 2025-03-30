@@ -5,7 +5,7 @@
   "author": "job gathu <jobgathuyahoo@yahoo.com>",
   "private": true,
   "scripts": {
-    "dev": "nuxt",
+    "dev": "nuxt dev",
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
@@ -13,14 +13,14 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
-    "gsap": "^2.0.2",
-    "nuxt": "^1.0.0"
+    "gsap": "3.12.7",
+    "nuxt": "3.16.1"
   },
   "devDependencies": {
-    "babel-eslint": "^8.2.1",
-    "eslint": "^4.15.0",
-    "eslint-friendly-formatter": "^3.0.0",
-    "eslint-loader": "^1.7.1",
-    "eslint-plugin-vue": "^4.0.0"
+    "babel-eslint": "10.1.0",
+    "eslint": "9.23.0",
+    "eslint-friendly-formatter": "4.0.1",
+    "eslint-loader": "4.0.2",
+    "eslint-plugin-vue": "10.0.0"
   }
 }
